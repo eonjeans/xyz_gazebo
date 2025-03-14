@@ -1,0 +1,331 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="urdf_tutorial">
+
+    <!-- MACROS -->
+    <xacro:include filename="macros.xacro"/>
+
+    <!-- COLOR -->
+    <material name="white">
+        <color rgba="1 1 1 1" />
+    </material>
+
+    <material name="blue">
+        <color rgba="0 0 1 1"/>
+    </material>
+
+    <material name="black">
+        <color rgba="0 0 0 1"/>
+    </material>
+
+    <material name="red">
+        <color rgba="1 0 0 1"/>
+    </material>
+
+    <!-- BASE LINK -->
+    <link name="base_link">
+    </link>
+    <!--BASE_FOOTPRINT LINK-->
+    <joint name="base_footprint_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="base_footprint"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+    <link name="base_footprint"></link>
+
+    <!-- BODY LINK -->
+    <joint name="body_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="body"/>
+        <origin xyz="0 0 0"/>
+        <!-- <origin xyz="-0.12 0 0"/> -->
+    </joint>
+
+    <link name="body">
+        <visual>
+            <origin xyz="0.0 0 0.13"/>
+            
+            <geometry>
+                <mesh filename="package://my_robot_description/meshes/bases/Main.stl" scale="0.01 0.01 0.01"/>
+                <!-- <box size="0.4 0.3 0.26"/> -->
+            </geometry>
+            <material name="white"/>
+        </visual>
+        <collision>
+            <origin xyz="-0.064 0 0.047" rpy="0 0 0"/>
+            <geometry>
+                <!-- <box size="0.266 0.266 0.094"/> -->
+                <box size="1.1 0.9 0.1"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_box mass="0.5" x="0.2" y="0.1" z="0.06">
+            <origin xyz="0.0 0 0.13" rpy="0 0 0"/>
+        </xacro:inertial_box>
+    </link>
+
+    <gazebo reference="body">
+        <material>Gazebo/White</material>
+    </gazebo>
+
+    <!-- LEFT WHEEL LINK -->
+    <joint name="left_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_wheel"/>
+        <!-- <origin xyz="0 0.065 0" rpy="-${pi/2} 0 0" /> -->
+        <origin xyz="0 0.3 0.05" rpy="-${pi/2} 0 0" />
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <link name="left_wheel">
+        <visual>
+            <!-- <origin xyz="0 -0.05 0.15" rpy="0 -${pi/2} 0"/>  -->
+            <origin xyz="0 0 0" rpy="0 -${pi/2} 0"/> 
+            <geometry>
+                <mesh filename="package://my_robot_description/meshes/wheels/Front_left_wheel.stl" scale="0.01 0.01 0.01"/>
+                <!-- <cylinder radius="0.03" length="0.03"/> -->
+            </geometry>
+            <material name="blue"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.08" length="0.08"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.03" radius="0.03">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+    <gazebo reference="left_wheel">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
+    <!-- RIGHT WHEEL LINK -->
+    <joint name="right_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_wheel"/>
+        <origin xyz="0 -0.3 0.05" rpy="${pi/2} 0 0" />
+        <axis xyz="0 0 -1"/>
+    </joint>
+
+    <link name="right_wheel">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 -${pi/2} 0"/> 
+            <geometry>
+                <mesh filename="package://my_robot_description/meshes/wheels/Front_right_wheel.stl" scale="0.01 0.01 0.01"/>
+                <!-- <cylinder radius="0.03" length="0.03"/> -->
+            </geometry>
+            <material name="blue"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.08" length="0.08"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.03" radius="0.03">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+    <gazebo reference="right_wheel">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
+    <!-- CASTER WHEEL1 LINK -->
+    <joint name="caster_wheel1_joint" type="fixed">
+        <parent link="body"/>
+        <child link="caster1_wheel"/>
+        <origin xyz="0.4 0.3 0"/>
+    </joint>
+
+    <link name="caster1_wheel">
+        <visual>
+            <origin xyz="0 0 0.08" rpy="0 0 0"/> 
+            <geometry>
+                <mesh filename="package://my_robot_description/meshes/castor.stl" scale="0.01 0.01 0.01"/>
+                <sphere radius="0.03"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <sphere radius="0.03"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_sphere mass="0.1" radius="0.03">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_sphere>
+    </link>
+
+    <gazebo reference="caster1_wheel">
+        <material>Gazebo/Blue</material>
+
+        <mu1 value="0.001"/>
+        <mu2 value="0.001"/>
+    </gazebo>
+
+    <!-- CASTER WHEEL2 front LINK -->
+    <joint name="caster_wheel2_joint" type="fixed">
+        <parent link="body"/>
+        <child link="caster2_wheel"/>
+        <origin xyz="0.4 -0.3 0"/>
+    </joint>
+
+    <link name="caster2_wheel">
+        <visual>
+            <origin xyz="0 0 0.08" rpy="0 0 0"/> 
+            <geometry>
+                <mesh filename="package://my_robot_description/meshes/castor.stl" scale="0.01 0.01 0.01"/>
+                <sphere radius="0.03"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <sphere radius="0.03"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_sphere mass="0.1" radius="0.03">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_sphere>
+    </link>
+
+    <gazebo reference="caster2_wheel">
+        <material>Gazebo/Blue</material>
+
+        <mu1 value="0.001"/>
+        <mu2 value="0.001"/>
+    </gazebo>
+
+    <!-- CASTER WHEEL3 LINK -->
+    <joint name="caster_wheel3_joint" type="fixed">
+        <parent link="body"/>
+        <child link="caster3_wheel"/>
+        <origin xyz="-0.4 0.3 0"/>
+    </joint>
+
+    <link name="caster3_wheel">
+        <visual>
+            <origin xyz="0 0 0.08" rpy="0 0 0"/> 
+            <geometry>
+                <mesh filename="package://my_robot_description/meshes/castor.stl" scale="0.01 0.01 0.01"/>
+                <sphere radius="0.03"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <sphere radius="0.03"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_sphere mass="0.1" radius="0.03">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_sphere>
+    </link>
+
+    <gazebo reference="caster3_wheel">
+        <material>Gazebo/Blue</material>
+
+        <mu1 value="0.001"/>
+        <mu2 value="0.001"/>
+    </gazebo>
+
+    <!-- CASTER WHEEL4 LINK -->
+    <joint name="caster_wheel4_joint" type="fixed">
+        <parent link="body"/>
+        <child link="caster4_wheel"/>
+        <origin xyz="-0.4 -0.3 0"/>
+    </joint>
+
+    <link name="caster4_wheel">
+        <visual>
+            <origin xyz="0 0 0.08" rpy="0 0 0"/> 
+            <geometry>
+                <mesh filename="package://my_robot_description/meshes/castor.stl" scale="0.01 0.01 0.01"/>
+                <sphere radius="0.03"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <sphere radius="0.03"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_sphere mass="0.1" radius="0.03">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_sphere>
+    </link>
+
+    <gazebo reference="caster4_wheel">
+        <material>Gazebo/Blue</material>
+
+        <mu1 value="0.001"/>
+        <mu2 value="0.001"/>
+    </gazebo>
+
+    <!-- LiDAR -->
+    <joint name="laser_joint" type="fixed">
+        <parent link="body"/>
+        <child link="laser_frame"/>
+        <origin xyz="0.52 0 0.2" rpy="0 0 0"/>
+    </joint>
+
+    <link name="laser_frame">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <!-- <mesh filename="package://my_robot_description/meshes/2Dlidar.stl" scale="0.01 0.01 0.01"/> -->
+                <cylinder radius="0.01" length="0.01"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.01" length="0.01"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.01" radius="0.01">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+    
+    <!-- CAMERA -->
+    <joint name="camera_joint" type="fixed">
+        <parent link="body"/>
+        <child link="camera_link"/>
+        <origin xyz="0.5 0 0.4" rpy="0 0 0"/>
+        <!-- <origin xyz="0 0 0.045" rpy="0 0 0"/> -->
+    </joint>
+
+    <link name="camera_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="${pi} -${pi/2} ${1*pi/2}"/>
+            <!-- <origin xyz="0.32 0 0" rpy="${pi} -${pi/2} ${1*pi/2}"/> -->
+            <geometry>
+                <mesh filename="package://my_robot_description/meshes/camera.stl" scale="0.01 0.01 0.01"/>
+                <box size="0.01 0.03 0.01"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.01 0.03 0.01"/>
+            </geometry>
+        </collision>
+    
+    </link>
+     
+    <joint name="camera_optical_joint" type="fixed">
+        <parent link="camera_link"/>
+        <child link="camera_link_optical"/>
+        <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
+    </joint>
+
+    <link name="camera_link_optical">
+    </link>
+
+    <!-- GAZEBO -->
+    <!-- <xacro:include filename="gazebo.xacro"/>
+    <xacro:include filename="lidar.xacro"/>
+    <xacro:include filename="depth.xacro"/> -->
+
+</robot>

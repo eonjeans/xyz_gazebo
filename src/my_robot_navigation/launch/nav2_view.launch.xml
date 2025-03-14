@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+
+<launch>
+    <arg name="default_rviz_config_path" default="$(find-pkg-share my_robot_navigation)/rviz/nav2_view.rviz"/>
+    
+    <node pkg="rviz2" exec="rviz2" output="screen" args="-d $(var default_rviz_config_path)" />
+</launch>    

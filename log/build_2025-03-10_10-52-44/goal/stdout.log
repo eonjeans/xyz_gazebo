@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/goal/goal.egg-info
+writing ../../build/goal/goal.egg-info/PKG-INFO
+writing dependency_links to ../../build/goal/goal.egg-info/dependency_links.txt
+writing entry points to ../../build/goal/goal.egg-info/entry_points.txt
+writing requirements to ../../build/goal/goal.egg-info/requires.txt
+writing top-level names to ../../build/goal/goal.egg-info/top_level.txt
+writing manifest file '../../build/goal/goal.egg-info/SOURCES.txt'
+reading manifest file '../../build/goal/goal.egg-info/SOURCES.txt'
+writing manifest file '../../build/goal/goal.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/addinedu/Desktop/my_mobile/build/goal/build
+creating /home/addinedu/Desktop/my_mobile/build/goal/build/lib
+creating /home/addinedu/Desktop/my_mobile/build/goal/build/lib/goal
+copying goal/pose_estimator_node.py -> /home/addinedu/Desktop/my_mobile/build/goal/build/lib/goal
+copying goal/__init__.py -> /home/addinedu/Desktop/my_mobile/build/goal/build/lib/goal
+copying goal/user_input_node.py -> /home/addinedu/Desktop/my_mobile/build/goal/build/lib/goal
+copying goal/goal_navigator_node.py -> /home/addinedu/Desktop/my_mobile/build/goal/build/lib/goal
+running install
+running install_lib
+creating /home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages/goal
+copying /home/addinedu/Desktop/my_mobile/build/goal/build/lib/goal/pose_estimator_node.py -> /home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages/goal
+copying /home/addinedu/Desktop/my_mobile/build/goal/build/lib/goal/__init__.py -> /home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages/goal
+copying /home/addinedu/Desktop/my_mobile/build/goal/build/lib/goal/user_input_node.py -> /home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages/goal
+copying /home/addinedu/Desktop/my_mobile/build/goal/build/lib/goal/goal_navigator_node.py -> /home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages/goal
+byte-compiling /home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages/goal/pose_estimator_node.py to pose_estimator_node.cpython-310.pyc
+byte-compiling /home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages/goal/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages/goal/user_input_node.py to user_input_node.cpython-310.pyc
+byte-compiling /home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages/goal/goal_navigator_node.py to goal_navigator_node.cpython-310.pyc
+running install_data
+creating /home/addinedu/Desktop/my_mobile/install/goal/share/ament_index
+creating /home/addinedu/Desktop/my_mobile/install/goal/share/ament_index/resource_index
+creating /home/addinedu/Desktop/my_mobile/install/goal/share/ament_index/resource_index/packages
+copying resource/goal -> /home/addinedu/Desktop/my_mobile/install/goal/share/ament_index/resource_index/packages
+copying package.xml -> /home/addinedu/Desktop/my_mobile/install/goal/share/goal
+creating /home/addinedu/Desktop/my_mobile/install/goal/share/goal/launch
+copying launch/multi_node.launch.py -> /home/addinedu/Desktop/my_mobile/install/goal/share/goal/launch
+running install_egg_info
+Copying ../../build/goal/goal.egg-info to /home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages/goal-0.0.1-py3.10.egg-info
+running install_scripts
+Installing goal_navigator script to /home/addinedu/Desktop/my_mobile/install/goal/lib/goal
+Installing pose_estimator script to /home/addinedu/Desktop/my_mobile/install/goal/lib/goal
+Installing user_input script to /home/addinedu/Desktop/my_mobile/install/goal/lib/goal
+writing list of installed files to '/home/addinedu/Desktop/my_mobile/build/goal/install.log'

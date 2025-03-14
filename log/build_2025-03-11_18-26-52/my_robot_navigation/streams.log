@@ -1,0 +1,40 @@
+[0.226s] Invoking command in '/home/addinedu/Desktop/my_mobile/build/my_robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --build /home/addinedu/Desktop/my_mobile/build/my_robot_navigation -- -j16 -l16
+[0.248s] Invoked command in '/home/addinedu/Desktop/my_mobile/build/my_robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --build /home/addinedu/Desktop/my_mobile/build/my_robot_navigation -- -j16 -l16
+[0.250s] Invoking command in '/home/addinedu/Desktop/my_mobile/build/my_robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --install /home/addinedu/Desktop/my_mobile/build/my_robot_navigation
+[0.259s] -- Install configuration: ""
+[0.259s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/launch
+[0.259s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/launch/localization_launch.xml
+[0.259s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/launch/bringup_launch.xml
+[0.259s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/launch/nav2_view.launch.xml
+[0.259s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/launch/navigation_launch.xml
+[0.259s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/launch/map_building.launch.xml
+[0.259s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/config
+[0.259s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/config/nav2_params_vec.yaml
+[0.259s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/config/nav2_params.yaml
+[0.259s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/config/mapper_params.yaml
+[0.259s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/config/nav2_params copy.yaml
+[0.259s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/maps
+[0.260s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/maps/realMap.pgm
+[0.260s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/maps/map_name.pgm
+[0.260s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/maps/realMap.yaml
+[0.260s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/maps/map_name.yaml
+[0.260s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/rviz
+[0.260s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/rviz/nav2_view.rviz
+[0.260s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/publish
+[0.260s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/publish/nav2_mygoal_publisher.py
+[0.261s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/ament_index/resource_index/package_run_dependencies/my_robot_navigation
+[0.262s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/ament_index/resource_index/parent_prefix_path/my_robot_navigation
+[0.262s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/environment/ament_prefix_path.sh
+[0.262s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/environment/ament_prefix_path.dsv
+[0.262s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/environment/path.sh
+[0.262s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/environment/path.dsv
+[0.262s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/local_setup.bash
+[0.262s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/local_setup.sh
+[0.263s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/local_setup.zsh
+[0.263s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/local_setup.dsv
+[0.263s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/package.dsv
+[0.263s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/ament_index/resource_index/packages/my_robot_navigation
+[0.263s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/cmake/my_robot_navigationConfig.cmake
+[0.263s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/cmake/my_robot_navigationConfig-version.cmake
+[0.263s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/package.xml
+[0.263s] Invoked command in '/home/addinedu/Desktop/my_mobile/build/my_robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --install /home/addinedu/Desktop/my_mobile/build/my_robot_navigation

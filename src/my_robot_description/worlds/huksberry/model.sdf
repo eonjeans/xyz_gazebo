@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="huksberry">
+    <!-- 정적 오브젝트면 true / 로봇처럼 움직일 거면 false -->
+    <static>true</static>
+
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://huksberry/meshes/huksberry.dae</uri>
+            <scale>0.01 0.01 0.01</scale> <!-- 크기 조정 가능 -->
+          </mesh>
+        </geometry>
+      </visual>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://huksberry/meshes/huksberry.dae</uri>
+            <scale>0.01 0.01 0.01</scale> <!-- 충돌용도 스케일 같게! -->
+          </mesh>
+        </geometry>
+      </collision>
+
+      <!-- 무게랑 관성값 기본 값 추가 (간단하게 해둠) -->
+      <inertial>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>1</ixx>
+          <iyy>1</iyy>
+          <izz>1</izz>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyz>0</iyz>
+        </inertia>
+      </inertial>
+
+    </link>
+  </model>
+</sdf>

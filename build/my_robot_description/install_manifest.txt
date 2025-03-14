@@ -1,0 +1,120 @@
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/rviz/nav2_view.rviz
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/rviz/test_gazebo.rviz
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/rviz/urdf_config.rviz
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/gazebo_control.xacro
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/lidar.xacro
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/macros.xacro
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/camera.xacro
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/robot_core.xacro
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/robot.urdf.xacro
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/map_building.launch.py
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/localization_launch.xml
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/upload.launch.xml
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/bringup_launch.xml
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/display.launch.py
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/nav2_view.launch.xml
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/occupancy_grid.launch.py
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/cartographer.launch.py
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/navigation_launch.xml
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/launch_sim.launch.py
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/map_building.launch.xml
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/upload.launch.py
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/bases/Main.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/endoscope_cart.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/endoscopy_room.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/camera.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/2Dlidar.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Lidar Y.jpg
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Front_left.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Rear_left.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Camera.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Rear_right.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Main.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/lidar.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Front_right.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Robot length.jpg
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/distance between wheel .jpg
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Robot width.jpg
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Bottom view.jpg
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/distance wheel front back.jpg
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Camera Y.jpg
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Top view.jpg
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Wheel radius.jpg
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/lidar X.jpg
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/lidar Z.jpg
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Camera Z.jpg
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Camera X.jpg
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheel.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/sensors/camera.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/sensors/lidar.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/sensors/Hokuyo.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/castor.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/[08]Basket_Table.pdf
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/Front_right_wheel.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/left_tire.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/Rear_right_wheel.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/Rear_left_wheel.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/Front_left_wheel.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/right_tire.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/surgery_cart.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/3Dlidar.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/config/nav2_params_vec.yaml
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/config/nav2_params.yaml
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/config/lidar.rviz
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/config/with_robot.world
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/config/mapper_params.yaml
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/model.sdf
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/RealMap.sdf
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/huksberry/model.sdf
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/huksberry/model.config
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/huksberry/meshes/huksberry.dae
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/RealrealMap
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/simmap_world2/model.sdf
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/simmap_world2/model.config
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/simple_building.world
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/realMap/model.sdf
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/realMap/model.config
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/traffic_world.model
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/RealMap2/model.sdf
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/RealMap2/model.config
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/phenix_world.model
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/simmap_world.model
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/mememan_world.model
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/simple_building/RealMap.sdf
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/simple_building/RealMap.config
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/neuronbot2_w_front_camera/model.sdf
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/neuronbot2_w_front_camera/model.config
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/neuronbot2_w_front_camera/meshes/neuronbot2/wheel_link.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/neuronbot2_w_front_camera/meshes/neuronbot2/base_link.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/neuronbot2_w_front_camera/meshes/neuronbot2/laser_link.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/mememan/model.sdf
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/mememan/model.config
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/neuronbot2_w_top_camera/model.sdf
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/neuronbot2_w_top_camera/model.config
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/neuronbot2_w_top_camera/meshes/neuronbot2/wheel_link.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/neuronbot2_w_top_camera/meshes/neuronbot2/base_link.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/neuronbot2_w_top_camera/meshes/neuronbot2/laser_link.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/phenix/model.sdf
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/phenix/model.config
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/simmap/model.sdf
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/simmap/model.config
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/neuronbot2/model.sdf
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/neuronbot2/model.config
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/neuronbot2/meshes/neuronbot2/wheel_link.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/neuronbot2/meshes/neuronbot2/base_link.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/neuronbot2/meshes/neuronbot2/laser_link.stl
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/environment/path.sh
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/environment/path.dsv
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/local_setup.bash
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/local_setup.sh
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/local_setup.zsh
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/local_setup.dsv
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/package.dsv
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/package.xml

@@ -1,0 +1,5 @@
+[console_scripts]
+goal_navigator = goal.goal_navigator_node:main
+pose_estimator = goal.pose_estimator_node:main
+user_input = goal.user_input_node:main
+
