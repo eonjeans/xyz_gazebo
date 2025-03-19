@@ -16,7 +16,7 @@ set(_my_robot_description_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT my_robot_description_FIND_QUIETLY)
-  message(STATUS "Found my_robot_description: 0.0.0 (${my_robot_description_DIR})")
+  message(STATUS "Found my_robot_description: 0.0.1 (${my_robot_description_DIR})")
 endif()
 
 # warn when using a deprecated package
@@ -36,7 +36,7 @@ endif()
 set(my_robot_description_FOUND_AMENT_PACKAGE TRUE)
 
 # include all config extra files
-set(_extras "")
+set(_extras "ament_cmake_export_libraries-extras.cmake")
 foreach(_extra ${_extras})
   include("${my_robot_description_DIR}/${_extra}")
 endforeach()

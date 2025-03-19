@@ -1,0 +1,298 @@
+[0.258s] Invoking command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --build /home/addinedu/Desktop/my_mobile/build/my_robot_description -- -j16 -l16
+[0.268s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.268s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.269s]   CMake.
+[0.269s] 
+[0.269s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.269s]   CMake that the project does not need compatibility with older versions.
+[0.269s] 
+[0.269s] [0m
+[0.279s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.458s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.485s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.487s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.493s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.502s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.514s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.546s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.547s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.657s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.712s] -- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[0.733s] [33mCMake Warning (dev) at /usr/share/dart/cmake/DARTFindBoost.cmake:20 (find_package):
+[0.733s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[0.733s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[0.733s]   set the policy and suppress this warning.
+[0.733s] 
+[0.733s] Call Stack (most recent call first):
+[0.733s]   /usr/share/dart/cmake/dart_dartComponent.cmake:6 (include)
+[0.733s]   /usr/share/dart/cmake/DARTConfig.cmake:73 (include)
+[0.733s]   /usr/share/dart/cmake/DARTConfig.cmake:133 (dart_traverse_components)
+[0.733s]   /usr/share/dart/cmake/DARTConfig.cmake:181 (dart_package_init)
+[0.733s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:166 (find_package)
+[0.733s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)
+[0.733s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[0.733s]   CMakeLists.txt:16 (find_package)
+[0.733s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.733s] [0m
+[0.741s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart
+[0.748s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:197 (find_package):
+[0.748s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[0.748s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[0.748s]   set the policy and suppress this warning.
+[0.748s] 
+[0.748s] Call Stack (most recent call first):
+[0.749s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)
+[0.749s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[0.749s]   CMakeLists.txt:16 (find_package)
+[0.749s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.749s] [0m
+[0.761s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time
+[0.770s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.774s] -- Searching for dependencies of ignition-math6
+[0.775s] -- Looking for OGRE...
+[0.781s] -- Found Ogre Ghadamon (1.9.0)
+[0.782s] [33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:309 (find_package):
+[0.782s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[0.782s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[0.782s]   set the policy and suppress this warning.
+[0.782s] 
+[0.782s] Call Stack (most recent call first):
+[0.782s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)
+[0.782s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)
+[0.782s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[0.782s]   CMakeLists.txt:16 (find_package)
+[0.782s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.782s] [0m
+[0.782s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.786s] [33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:318 (find_package):
+[0.786s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[0.787s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[0.787s]   set the policy and suppress this warning.
+[0.787s] 
+[0.787s] Call Stack (most recent call first):
+[0.787s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)
+[0.787s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)
+[0.787s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[0.787s]   CMakeLists.txt:16 (find_package)
+[0.787s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.787s] [0m
+[0.790s] -- Looking for OGRE_Paging...
+[0.791s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.791s] -- Looking for OGRE_Terrain...
+[0.791s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.791s] -- Looking for OGRE_Property...
+[0.791s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.791s] -- Looking for OGRE_RTShaderSystem...
+[0.791s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.791s] -- Looking for OGRE_Volume...
+[0.791s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.791s] -- Looking for OGRE_Overlay...
+[0.792s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.955s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.956s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.956s] -- Searching for dependencies of ignition-transport8
+[0.974s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3")
+[0.985s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.990s] -- Checking for module 'libzmq >= 4'
+[1.003s] --   Found libzmq, version 4.3.4
+[1.049s] -- Checking for module 'uuid'
+[1.061s] --   Found uuid, version 2.37.2
+[1.094s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.094s] -- Searching for dependencies of ignition-msgs5
+[1.113s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.117s] -- Checking for module 'tinyxml2'
+[1.131s] --   Found tinyxml2, version 9.0.0
+[1.166s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.166s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.166s] -- Searching for dependencies of ignition-common3
+[1.167s] -- Looking for dlfcn.h - found
+[1.167s] -- Looking for libdl - found
+[1.178s] -- Searching for <ignition-common3> component [graphics]
+[1.179s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.179s] -- Searching for dependencies of ignition-common3-graphics
+[1.179s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.180s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.180s] -- Searching for dependencies of ignition-fuel_tools4
+[1.216s] [0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):
+[1.216s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[1.216s]   CMake.
+[1.216s] 
+[1.216s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.216s]   CMake that the project does not need compatibility with older versions.
+[1.216s] Call Stack (most recent call first):
+[1.216s]   /usr/share/cmake/ignition-cmake2/cmake2/FindJSONCPP.cmake:34 (find_package)
+[1.216s]   /usr/lib/x86_64-linux-gnu/cmake/ignition-fuel_tools4/ignition-fuel_tools4-config.cmake:94 (find_package)
+[1.216s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:251 (find_package)
+[1.216s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)
+[1.216s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[1.216s]   CMakeLists.txt:16 (find_package)
+[1.216s] 
+[1.216s] [0m
+[1.221s] -- Checking for module 'jsoncpp'
+[1.232s] --   Found jsoncpp, version 1.9.5
+[1.270s] -- Checking for module 'libzip'
+[1.281s] --   Found libzip, version 1.7.3
+[1.313s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.314s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.314s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.315s] -- Gazebo version: 11.10
+[1.316s] -- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[1.372s] [33mCMake Warning (dev) at CMakeLists.txt:18 (find_package):
+[1.372s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.373s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.373s]   set the policy and suppress this warning.
+[1.373s] 
+[1.373s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.373s] [0m
+[1.375s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system
+[1.383s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4")
+[1.448s] -- Configuring done (1.2s)
+[1.513s] -- Generating done (0.1s)
+[1.521s] -- Build files have been written to: /home/addinedu/Desktop/my_mobile/build/my_robot_description
+[1.548s] [ 30%] [32mBuilding CXX object CMakeFiles/animated_box_1.dir/src/animated_box_plugin/animated_box_1.cc.o[0m
+[1.548s] [ 30%] [32mBuilding CXX object CMakeFiles/animated_box_2.dir/src/animated_box_plugin/animated_box_2.cc.o[0m
+[1.548s] [ 30%] [32mBuilding CXX object CMakeFiles/animated_box_3.dir/src/animated_box_plugin/animated_box_3.cc.o[0m
+[1.549s] [ 40%] [32mBuilding CXX object CMakeFiles/animated_box_4.dir/src/animated_box_plugin/animated_box_4.cc.o[0m
+[1.549s] [ 50%] [32mBuilding CXX object CMakeFiles/integrated_main.dir/src/animated_box_plugin/integrated_main.cc.o[0m
+[4.616s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[4.616s]                  from [01m[K/home/addinedu/Desktop/my_mobile/src/my_robot_description/src/animated_box_plugin/animated_box_4.cc:1[m[K:
+[4.616s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[4.616s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[4.616s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.624s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[4.624s]                  from [01m[K/home/addinedu/Desktop/my_mobile/src/my_robot_description/src/animated_box_plugin/animated_box_3.cc:1[m[K:
+[4.624s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[4.624s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[4.624s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[9.721s] [ 60%] [32m[1mLinking CXX executable integrated_main[0m
+[10.212s] [ 60%] Built target integrated_main
+[13.313s] [ 70%] [32m[1mLinking CXX shared library libanimated_box_4.so[0m
+[13.422s] [ 80%] [32m[1mLinking CXX shared library libanimated_box_2.so[0m
+[13.475s] [ 90%] [32m[1mLinking CXX shared library libanimated_box_1.so[0m
+[13.500s] [100%] [32m[1mLinking CXX shared library libanimated_box_3.so[0m
+[13.623s] [100%] Built target animated_box_4
+[13.748s] [100%] Built target animated_box_2
+[13.779s] [100%] Built target animated_box_1
+[13.793s] [100%] Built target animated_box_3
+[13.800s] Invoked command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --build /home/addinedu/Desktop/my_mobile/build/my_robot_description -- -j16 -l16
+[13.802s] Invoking command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --install /home/addinedu/Desktop/my_mobile/build/my_robot_description
+[13.805s] -- Install configuration: ""
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/rviz
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/rviz/nav2_view.rviz
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/rviz/test_gazebo.rviz
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/rviz/urdf_config.rviz
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/gazebo_control.xacro
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/lidar.xacro
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/macros.xacro
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/camera.xacro
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/robot_core.xacro
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/robot.urdf.xacro
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/map_building.launch.py
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/localization_launch.xml
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/upload.launch.xml
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/bringup_launch.xml
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/display.launch.py
+[13.806s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/nav2_view.launch.xml
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/occupancy_grid.launch.py
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/cartographer.launch.py
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/navigation_launch.xml
+[13.807s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/launch_sim.launch.py
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/map_building.launch.xml
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/upload.launch.py
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/bases
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/bases/Main.stl
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/endoscope_cart.stl
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/endoscopy_room.stl
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/camera.stl
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/2Dlidar.stl
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Lidar Y.jpg
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Front_left.stl
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Rear_left.stl
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Camera.stl
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Rear_right.stl
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Main.stl
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/lidar.stl
+[13.807s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Front_right.stl
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Robot length.jpg
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/distance between wheel .jpg
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Robot width.jpg
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Bottom view.jpg
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/distance wheel front back.jpg
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Camera Y.jpg
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Top view.jpg
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Wheel radius.jpg
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/lidar X.jpg
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/lidar Z.jpg
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Camera Z.jpg
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Camera X.jpg
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheel.stl
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/sensors
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/sensors/camera.stl
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/sensors/lidar.stl
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/sensors/Hokuyo.stl
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/castor.stl
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/[08]Basket_Table.pdf
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/Front_right_wheel.stl
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/left_tire.stl
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/Rear_right_wheel.stl
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/Rear_left_wheel.stl
+[13.808s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/Front_left_wheel.stl
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/right_tire.stl
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/surgery_cart.stl
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/3Dlidar.stl
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/config
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/config/nav2_params_vec.yaml
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/config/nav2_params.yaml
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/config/lidar.rviz
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/config/with_robot.world
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/config/mapper_params.yaml
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/huksberry
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/huksberry/model.sdf
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/huksberry/model.config
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/huksberry/meshes
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/huksberry/meshes/huksberry.dae
+[13.809s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/animated_box.world
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/realMap
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/realMap/model.sdf
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/realMap/model.config
+[13.809s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/realMap.world
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models
+[13.809s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/simple_building
+[13.809s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/libanimated_box_1.so
+[13.809s] -- Set non-toolchain portion of runtime path of "/home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/libanimated_box_1.so" to ""
+[13.810s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/libanimated_box_2.so
+[13.811s] -- Set non-toolchain portion of runtime path of "/home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/libanimated_box_2.so" to ""
+[13.811s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/libanimated_box_3.so
+[13.812s] -- Set non-toolchain portion of runtime path of "/home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/libanimated_box_3.so" to ""
+[13.813s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/libanimated_box_4.so
+[13.814s] -- Set non-toolchain portion of runtime path of "/home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/libanimated_box_4.so" to ""
+[13.814s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/bin/integrated_main
+[13.817s] -- Set non-toolchain portion of runtime path of "/home/addinedu/Desktop/my_mobile/install/my_robot_description/bin/integrated_main" to ""
+[13.817s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/include/
+[13.817s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/include//my_robot_description
+[13.818s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/environment/library_path.sh
+[13.818s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/environment/library_path.dsv
+[13.818s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[13.818s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[13.818s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[13.818s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[13.818s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/environment/path.sh
+[13.818s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[13.819s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/local_setup.bash
+[13.819s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/local_setup.sh
+[13.819s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[13.819s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[13.819s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/package.dsv
+[13.819s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[13.819s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/cmake/ament_cmake_export_libraries-extras.cmake
+[13.819s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[13.820s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[13.820s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/package.xml
+[13.822s] Invoked command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --install /home/addinedu/Desktop/my_mobile/build/my_robot_description

@@ -197,6 +197,191 @@ my_robot_description_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_description_uninstall.dir/build.make CMakeFiles/my_robot_description_uninstall.dir/build
 .PHONY : my_robot_description_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named animated_box_1
+
+# Build rule for target.
+animated_box_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 animated_box_1
+.PHONY : animated_box_1
+
+# fast build rule for target.
+animated_box_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animated_box_1.dir/build.make CMakeFiles/animated_box_1.dir/build
+.PHONY : animated_box_1/fast
+
+#=============================================================================
+# Target rules for targets named animated_box_2
+
+# Build rule for target.
+animated_box_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 animated_box_2
+.PHONY : animated_box_2
+
+# fast build rule for target.
+animated_box_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animated_box_2.dir/build.make CMakeFiles/animated_box_2.dir/build
+.PHONY : animated_box_2/fast
+
+#=============================================================================
+# Target rules for targets named animated_box_3
+
+# Build rule for target.
+animated_box_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 animated_box_3
+.PHONY : animated_box_3
+
+# fast build rule for target.
+animated_box_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animated_box_3.dir/build.make CMakeFiles/animated_box_3.dir/build
+.PHONY : animated_box_3/fast
+
+#=============================================================================
+# Target rules for targets named animated_box_4
+
+# Build rule for target.
+animated_box_4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 animated_box_4
+.PHONY : animated_box_4
+
+# fast build rule for target.
+animated_box_4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animated_box_4.dir/build.make CMakeFiles/animated_box_4.dir/build
+.PHONY : animated_box_4/fast
+
+#=============================================================================
+# Target rules for targets named integrated_main
+
+# Build rule for target.
+integrated_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 integrated_main
+.PHONY : integrated_main
+
+# fast build rule for target.
+integrated_main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/integrated_main.dir/build.make CMakeFiles/integrated_main.dir/build
+.PHONY : integrated_main/fast
+
+src/animated_box_plugin/animated_box_1.o: src/animated_box_plugin/animated_box_1.cc.o
+.PHONY : src/animated_box_plugin/animated_box_1.o
+
+# target to build an object file
+src/animated_box_plugin/animated_box_1.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animated_box_1.dir/build.make CMakeFiles/animated_box_1.dir/src/animated_box_plugin/animated_box_1.cc.o
+.PHONY : src/animated_box_plugin/animated_box_1.cc.o
+
+src/animated_box_plugin/animated_box_1.i: src/animated_box_plugin/animated_box_1.cc.i
+.PHONY : src/animated_box_plugin/animated_box_1.i
+
+# target to preprocess a source file
+src/animated_box_plugin/animated_box_1.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animated_box_1.dir/build.make CMakeFiles/animated_box_1.dir/src/animated_box_plugin/animated_box_1.cc.i
+.PHONY : src/animated_box_plugin/animated_box_1.cc.i
+
+src/animated_box_plugin/animated_box_1.s: src/animated_box_plugin/animated_box_1.cc.s
+.PHONY : src/animated_box_plugin/animated_box_1.s
+
+# target to generate assembly for a file
+src/animated_box_plugin/animated_box_1.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animated_box_1.dir/build.make CMakeFiles/animated_box_1.dir/src/animated_box_plugin/animated_box_1.cc.s
+.PHONY : src/animated_box_plugin/animated_box_1.cc.s
+
+src/animated_box_plugin/animated_box_2.o: src/animated_box_plugin/animated_box_2.cc.o
+.PHONY : src/animated_box_plugin/animated_box_2.o
+
+# target to build an object file
+src/animated_box_plugin/animated_box_2.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animated_box_2.dir/build.make CMakeFiles/animated_box_2.dir/src/animated_box_plugin/animated_box_2.cc.o
+.PHONY : src/animated_box_plugin/animated_box_2.cc.o
+
+src/animated_box_plugin/animated_box_2.i: src/animated_box_plugin/animated_box_2.cc.i
+.PHONY : src/animated_box_plugin/animated_box_2.i
+
+# target to preprocess a source file
+src/animated_box_plugin/animated_box_2.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animated_box_2.dir/build.make CMakeFiles/animated_box_2.dir/src/animated_box_plugin/animated_box_2.cc.i
+.PHONY : src/animated_box_plugin/animated_box_2.cc.i
+
+src/animated_box_plugin/animated_box_2.s: src/animated_box_plugin/animated_box_2.cc.s
+.PHONY : src/animated_box_plugin/animated_box_2.s
+
+# target to generate assembly for a file
+src/animated_box_plugin/animated_box_2.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animated_box_2.dir/build.make CMakeFiles/animated_box_2.dir/src/animated_box_plugin/animated_box_2.cc.s
+.PHONY : src/animated_box_plugin/animated_box_2.cc.s
+
+src/animated_box_plugin/animated_box_3.o: src/animated_box_plugin/animated_box_3.cc.o
+.PHONY : src/animated_box_plugin/animated_box_3.o
+
+# target to build an object file
+src/animated_box_plugin/animated_box_3.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animated_box_3.dir/build.make CMakeFiles/animated_box_3.dir/src/animated_box_plugin/animated_box_3.cc.o
+.PHONY : src/animated_box_plugin/animated_box_3.cc.o
+
+src/animated_box_plugin/animated_box_3.i: src/animated_box_plugin/animated_box_3.cc.i
+.PHONY : src/animated_box_plugin/animated_box_3.i
+
+# target to preprocess a source file
+src/animated_box_plugin/animated_box_3.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animated_box_3.dir/build.make CMakeFiles/animated_box_3.dir/src/animated_box_plugin/animated_box_3.cc.i
+.PHONY : src/animated_box_plugin/animated_box_3.cc.i
+
+src/animated_box_plugin/animated_box_3.s: src/animated_box_plugin/animated_box_3.cc.s
+.PHONY : src/animated_box_plugin/animated_box_3.s
+
+# target to generate assembly for a file
+src/animated_box_plugin/animated_box_3.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animated_box_3.dir/build.make CMakeFiles/animated_box_3.dir/src/animated_box_plugin/animated_box_3.cc.s
+.PHONY : src/animated_box_plugin/animated_box_3.cc.s
+
+src/animated_box_plugin/animated_box_4.o: src/animated_box_plugin/animated_box_4.cc.o
+.PHONY : src/animated_box_plugin/animated_box_4.o
+
+# target to build an object file
+src/animated_box_plugin/animated_box_4.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animated_box_4.dir/build.make CMakeFiles/animated_box_4.dir/src/animated_box_plugin/animated_box_4.cc.o
+.PHONY : src/animated_box_plugin/animated_box_4.cc.o
+
+src/animated_box_plugin/animated_box_4.i: src/animated_box_plugin/animated_box_4.cc.i
+.PHONY : src/animated_box_plugin/animated_box_4.i
+
+# target to preprocess a source file
+src/animated_box_plugin/animated_box_4.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animated_box_4.dir/build.make CMakeFiles/animated_box_4.dir/src/animated_box_plugin/animated_box_4.cc.i
+.PHONY : src/animated_box_plugin/animated_box_4.cc.i
+
+src/animated_box_plugin/animated_box_4.s: src/animated_box_plugin/animated_box_4.cc.s
+.PHONY : src/animated_box_plugin/animated_box_4.s
+
+# target to generate assembly for a file
+src/animated_box_plugin/animated_box_4.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/animated_box_4.dir/build.make CMakeFiles/animated_box_4.dir/src/animated_box_plugin/animated_box_4.cc.s
+.PHONY : src/animated_box_plugin/animated_box_4.cc.s
+
+src/animated_box_plugin/integrated_main.o: src/animated_box_plugin/integrated_main.cc.o
+.PHONY : src/animated_box_plugin/integrated_main.o
+
+# target to build an object file
+src/animated_box_plugin/integrated_main.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/integrated_main.dir/build.make CMakeFiles/integrated_main.dir/src/animated_box_plugin/integrated_main.cc.o
+.PHONY : src/animated_box_plugin/integrated_main.cc.o
+
+src/animated_box_plugin/integrated_main.i: src/animated_box_plugin/integrated_main.cc.i
+.PHONY : src/animated_box_plugin/integrated_main.i
+
+# target to preprocess a source file
+src/animated_box_plugin/integrated_main.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/integrated_main.dir/build.make CMakeFiles/integrated_main.dir/src/animated_box_plugin/integrated_main.cc.i
+.PHONY : src/animated_box_plugin/integrated_main.cc.i
+
+src/animated_box_plugin/integrated_main.s: src/animated_box_plugin/integrated_main.cc.s
+.PHONY : src/animated_box_plugin/integrated_main.s
+
+# target to generate assembly for a file
+src/animated_box_plugin/integrated_main.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/integrated_main.dir/build.make CMakeFiles/integrated_main.dir/src/animated_box_plugin/integrated_main.cc.s
+.PHONY : src/animated_box_plugin/integrated_main.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +397,26 @@ help:
 	@echo "... test"
 	@echo "... my_robot_description_uninstall"
 	@echo "... uninstall"
+	@echo "... animated_box_1"
+	@echo "... animated_box_2"
+	@echo "... animated_box_3"
+	@echo "... animated_box_4"
+	@echo "... integrated_main"
+	@echo "... src/animated_box_plugin/animated_box_1.o"
+	@echo "... src/animated_box_plugin/animated_box_1.i"
+	@echo "... src/animated_box_plugin/animated_box_1.s"
+	@echo "... src/animated_box_plugin/animated_box_2.o"
+	@echo "... src/animated_box_plugin/animated_box_2.i"
+	@echo "... src/animated_box_plugin/animated_box_2.s"
+	@echo "... src/animated_box_plugin/animated_box_3.o"
+	@echo "... src/animated_box_plugin/animated_box_3.i"
+	@echo "... src/animated_box_plugin/animated_box_3.s"
+	@echo "... src/animated_box_plugin/animated_box_4.o"
+	@echo "... src/animated_box_plugin/animated_box_4.i"
+	@echo "... src/animated_box_plugin/animated_box_4.s"
+	@echo "... src/animated_box_plugin/integrated_main.o"
+	@echo "... src/animated_box_plugin/integrated_main.i"
+	@echo "... src/animated_box_plugin/integrated_main.s"
 .PHONY : help
 
 

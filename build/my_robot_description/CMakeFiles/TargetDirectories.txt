@@ -1,5 +1,10 @@
 /home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/uninstall.dir
 /home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/my_robot_description_uninstall.dir
+/home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/animated_box_1.dir
+/home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/animated_box_2.dir
+/home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/animated_box_3.dir
+/home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/animated_box_4.dir
+/home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/integrated_main.dir
 /home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/test.dir
 /home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/edit_cache.dir
 /home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/rebuild_cache.dir

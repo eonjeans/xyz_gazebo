@@ -1,0 +1,277 @@
+[0.140s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.140s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e144e13c700>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e144e29dcc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e144e29dcc0>>, mixin_verb=('build',))
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.417s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/addinedu/Desktop/my_mobile'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/goal) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/goal) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/goal) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/goal) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/goal) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/goal) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/goal) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/goal) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/goal) by extension 'ros'
+[0.442s] DEBUG:colcon.colcon_core.package_identification:Package 'src/goal' with type 'ros.ament_python' and name 'goal'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[0.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'ros'
+[0.445s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_navigation' with type 'ros.ament_cmake' and name 'my_robot_navigation'
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.474s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/addinedu/Desktop/my_mobile/install
+[0.476s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 374 installed packages in /opt/ros/humble
+[0.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'goal' build argument 'cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'goal' build argument 'cmake_target' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'goal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'goal' build argument 'cmake_clean_cache' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'goal' build argument 'cmake_clean_first' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'goal' build argument 'cmake_force_configure' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'goal' build argument 'ament_cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'goal' build argument 'catkin_cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'goal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.525s] DEBUG:colcon.colcon_core.verb:Building package 'goal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/addinedu/Desktop/my_mobile/build/goal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/addinedu/Desktop/my_mobile/install/goal', 'merge_install': False, 'path': '/home/addinedu/Desktop/my_mobile/src/goal', 'symlink_install': False, 'test_result_base': None}
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.525s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/addinedu/Desktop/my_mobile/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/addinedu/Desktop/my_mobile/install/my_robot_description', 'merge_install': False, 'path': '/home/addinedu/Desktop/my_mobile/src/my_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_target' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.526s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/addinedu/Desktop/my_mobile/build/my_robot_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation', 'merge_install': False, 'path': '/home/addinedu/Desktop/my_mobile/src/my_robot_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.526s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.527s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.528s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/addinedu/Desktop/my_mobile/src/goal' with build type 'ament_python'
+[0.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('goal', 'ament_prefix_path')
+[0.531s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/goal/share/goal/hook/ament_prefix_path.ps1'
+[0.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinedu/Desktop/my_mobile/install/goal/share/goal/hook/ament_prefix_path.dsv'
+[0.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/goal/share/goal/hook/ament_prefix_path.sh'
+[0.533s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.533s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.538s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/addinedu/Desktop/my_mobile/src/my_robot_description' with build type 'ament_cmake'
+[0.538s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/addinedu/Desktop/my_mobile/src/my_robot_description'
+[0.538s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.538s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.542s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/addinedu/Desktop/my_mobile/src/my_robot_navigation' with build type 'ament_cmake'
+[0.542s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/addinedu/Desktop/my_mobile/src/my_robot_navigation'
+[0.543s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.817s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/addinedu/Desktop/my_mobile/src/goal'
+[0.817s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.817s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --build /home/addinedu/Desktop/my_mobile/build/my_robot_description -- -j16 -l16
+[0.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/addinedu/Desktop/my_mobile/build/my_robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --build /home/addinedu/Desktop/my_mobile/build/my_robot_navigation -- -j16 -l16
+[0.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/addinedu/Desktop/my_mobile/build/my_robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --build /home/addinedu/Desktop/my_mobile/build/my_robot_navigation -- -j16 -l16
+[0.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/addinedu/Desktop/my_mobile/build/my_robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --install /home/addinedu/Desktop/my_mobile/build/my_robot_navigation
+[0.935s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_navigation)
+[0.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/addinedu/Desktop/my_mobile/build/my_robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --install /home/addinedu/Desktop/my_mobile/build/my_robot_navigation
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation' for CMake module files
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation' for CMake config files
+[0.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_navigation', 'cmake_prefix_path')
+[0.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.ps1'
+[0.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.dsv'
+[0.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.sh'
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/bin'
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/lib/pkgconfig/my_robot_navigation.pc'
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/lib/python3.10/site-packages'
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/bin'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/package.ps1'
+[0.944s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/package.dsv'
+[0.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/package.sh'
+[0.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/package.bash'
+[0.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/package.zsh'
+[0.947s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/colcon-core/packages/my_robot_navigation)
+[0.948s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_navigation)
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation' for CMake module files
+[0.949s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation' for CMake config files
+[0.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_navigation', 'cmake_prefix_path')
+[0.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.ps1'
+[0.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.dsv'
+[0.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.sh'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/bin'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/lib/pkgconfig/my_robot_navigation.pc'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/lib/python3.10/site-packages'
+[0.951s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/bin'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/package.ps1'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/package.dsv'
+[0.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/package.sh'
+[0.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/package.bash'
+[0.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/package.zsh'
+[0.953s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/colcon-core/packages/my_robot_navigation)
+[1.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --build /home/addinedu/Desktop/my_mobile/build/my_robot_description -- -j16 -l16
+[1.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --install /home/addinedu/Desktop/my_mobile/build/my_robot_description
+[1.027s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[1.027s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_description' for CMake module files
+[1.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --install /home/addinedu/Desktop/my_mobile/build/my_robot_description
+[1.028s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_description' for CMake config files
+[1.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[1.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[1.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[1.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_description/lib'
+[1.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'ld_library_path_lib')
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/ld_library_path_lib.ps1'
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/ld_library_path_lib.dsv'
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/ld_library_path_lib.sh'
+[1.031s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_description/bin'
+[1.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'path')
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/path.ps1'
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/path.dsv'
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/path.sh'
+[1.032s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[1.032s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/python3.10/site-packages'
+[1.032s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_description/bin'
+[1.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'pythonscriptspath')
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/pythonscriptspath.ps1'
+[1.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/pythonscriptspath.dsv'
+[1.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/pythonscriptspath.sh'
+[1.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/package.ps1'
+[1.034s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/package.dsv'
+[1.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/package.sh'
+[1.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/package.bash'
+[1.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/package.zsh'
+[1.036s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[1.036s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_description' for CMake module files
+[1.037s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_description' for CMake config files
+[1.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[1.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[1.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[1.038s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_description/lib'
+[1.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'ld_library_path_lib')
+[1.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/ld_library_path_lib.ps1'
+[1.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/ld_library_path_lib.dsv'
+[1.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/ld_library_path_lib.sh'
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_description/bin'
+[1.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'path')
+[1.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/path.ps1'
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/path.dsv'
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/path.sh'
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/python3.10/site-packages'
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/my_robot_description/bin'
+[1.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'pythonscriptspath')
+[1.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/pythonscriptspath.ps1'
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/pythonscriptspath.dsv'
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/hook/pythonscriptspath.sh'
+[1.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/package.ps1'
+[1.044s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/package.dsv'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/package.sh'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/package.bash'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/package.zsh'
+[1.046s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/addinedu/Desktop/my_mobile/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[1.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/addinedu/Desktop/my_mobile/src/goal': PYTHONPATH=/home/addinedu/Desktop/my_mobile/build/goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/goal build --build-base /home/addinedu/Desktop/my_mobile/build/goal/build install --record /home/addinedu/Desktop/my_mobile/build/goal/install.log --single-version-externally-managed install_data
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/goal' for CMake module files
+[1.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/addinedu/Desktop/my_mobile/src/goal' returned '0': PYTHONPATH=/home/addinedu/Desktop/my_mobile/build/goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/goal build --build-base /home/addinedu/Desktop/my_mobile/build/goal/build install --record /home/addinedu/Desktop/my_mobile/build/goal/install.log --single-version-externally-managed install_data
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/goal' for CMake config files
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/goal/lib'
+[1.476s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/goal/bin'
+[1.476s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/goal/lib/pkgconfig/goal.pc'
+[1.476s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages'
+[1.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('goal', 'pythonpath')
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/goal/share/goal/hook/pythonpath.ps1'
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinedu/Desktop/my_mobile/install/goal/share/goal/hook/pythonpath.dsv'
+[1.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinedu/Desktop/my_mobile/install/goal/share/goal/hook/pythonpath.sh'
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/addinedu/Desktop/my_mobile/install/goal/bin'
+[1.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(goal)
+[1.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/goal/share/goal/package.ps1'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/addinedu/Desktop/my_mobile/install/goal/share/goal/package.dsv'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/goal/share/goal/package.sh'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/goal/share/goal/package.bash'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinedu/Desktop/my_mobile/install/goal/share/goal/package.zsh'
+[1.479s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/addinedu/Desktop/my_mobile/install/goal/share/colcon-core/packages/goal)
+[1.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.479s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.485s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.485s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.485s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.497s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.497s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/addinedu/Desktop/my_mobile/install/local_setup.ps1'
+[1.499s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/addinedu/Desktop/my_mobile/install/_local_setup_util_ps1.py'
+[1.500s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/addinedu/Desktop/my_mobile/install/setup.ps1'
+[1.501s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/addinedu/Desktop/my_mobile/install/local_setup.sh'
+[1.501s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/addinedu/Desktop/my_mobile/install/_local_setup_util_sh.py'
+[1.502s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/addinedu/Desktop/my_mobile/install/setup.sh'
+[1.503s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/addinedu/Desktop/my_mobile/install/local_setup.bash'
+[1.503s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/addinedu/Desktop/my_mobile/install/setup.bash'
+[1.504s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/addinedu/Desktop/my_mobile/install/local_setup.zsh'
+[1.504s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/addinedu/Desktop/my_mobile/install/setup.zsh'

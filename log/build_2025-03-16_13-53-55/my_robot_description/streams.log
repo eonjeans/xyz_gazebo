@@ -1,0 +1,142 @@
+[0.273s] Invoking command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description': /usr/local/bin/cmake --build /home/addinedu/Desktop/my_mobile/build/my_robot_description -- -j16 -l16
+[0.439s] [ 20%] Built target integrated_main
+[0.471s] [ 40%] Built target animated_box_1
+[0.471s] [ 60%] [32mBuilding CXX object CMakeFiles/animated_box_3.dir/src/animated_box_plugin/animated_box_3.cc.o[0m
+[0.471s] [ 60%] [32mBuilding CXX object CMakeFiles/animated_box_4.dir/src/animated_box_plugin/animated_box_4.cc.o[0m
+[0.471s] [ 70%] [32mBuilding CXX object CMakeFiles/animated_box_2.dir/src/animated_box_plugin/animated_box_2.cc.o[0m
+[3.110s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[3.110s]                  from [01m[K/home/addinedu/Desktop/my_mobile/src/my_robot_description/src/animated_box_plugin/animated_box_3.cc:1[m[K:
+[3.110s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[3.110s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[3.110s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.111s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[3.111s]                  from [01m[K/home/addinedu/Desktop/my_mobile/src/my_robot_description/src/animated_box_plugin/animated_box_4.cc:1[m[K:
+[3.111s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[3.111s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[3.111s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[9.694s] [ 80%] [32m[1mLinking CXX shared library libanimated_box_4.so[0m
+[9.696s] [ 90%] [32m[1mLinking CXX shared library libanimated_box_3.so[0m
+[9.758s] [100%] [32m[1mLinking CXX shared library libanimated_box_2.so[0m
+[10.017s] [100%] Built target animated_box_3
+[10.020s] [100%] Built target animated_box_2
+[10.022s] [100%] Built target animated_box_4
+[10.029s] Invoked command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description' returned '0': /usr/local/bin/cmake --build /home/addinedu/Desktop/my_mobile/build/my_robot_description -- -j16 -l16
+[10.031s] Invoking command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description': /usr/local/bin/cmake --install /home/addinedu/Desktop/my_mobile/build/my_robot_description
+[10.034s] -- Install configuration: ""
+[10.034s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/rviz
+[10.035s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/rviz/nav2_view.rviz
+[10.035s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/rviz/test_gazebo.rviz
+[10.035s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/rviz/urdf_config.rviz
+[10.035s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf
+[10.035s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/gazebo_control.xacro
+[10.035s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/lidar.xacro
+[10.035s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/macros.xacro
+[10.036s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/camera.xacro
+[10.036s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/robot_core.xacro
+[10.036s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/urdf/robot.urdf.xacro
+[10.036s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch
+[10.036s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/map_building.launch.py
+[10.036s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/localization_launch.xml
+[10.036s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/upload.launch.xml
+[10.036s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/bringup_launch.xml
+[10.036s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/display.launch.py
+[10.036s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/nav2_view.launch.xml
+[10.036s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/occupancy_grid.launch.py
+[10.036s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/cartographer.launch.py
+[10.036s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/navigation_launch.xml
+[10.036s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/launch_sim.launch.py
+[10.036s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/map_building.launch.xml
+[10.036s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/launch/upload.launch.py
+[10.036s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes
+[10.036s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/bases
+[10.037s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/bases/Main.stl
+[10.037s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/endoscope_cart.stl
+[10.037s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/endoscopy_room.stl
+[10.037s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/camera.stl
+[10.037s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/2Dlidar.stl
+[10.037s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size
+[10.037s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Lidar Y.jpg
+[10.037s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file
+[10.037s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Front_left.stl
+[10.037s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Rear_left.stl
+[10.037s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Camera.stl
+[10.037s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Rear_right.stl
+[10.037s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Main.stl
+[10.037s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/lidar.stl
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/STL file/Front_right.stl
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Robot length.jpg
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/distance between wheel .jpg
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Robot width.jpg
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Bottom view.jpg
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/distance wheel front back.jpg
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Camera Y.jpg
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Top view.jpg
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Wheel radius.jpg
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/lidar X.jpg
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/lidar Z.jpg
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Camera Z.jpg
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/Size/Camera X.jpg
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheel.stl
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/sensors
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/sensors/camera.stl
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/sensors/lidar.stl
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/sensors/Hokuyo.stl
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/castor.stl
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/[08]Basket_Table.pdf
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels
+[10.038s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/Front_right_wheel.stl
+[10.039s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/left_tire.stl
+[10.039s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/Rear_right_wheel.stl
+[10.039s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/Rear_left_wheel.stl
+[10.039s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/Front_left_wheel.stl
+[10.039s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/wheels/right_tire.stl
+[10.039s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/surgery_cart.stl
+[10.039s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/meshes/3Dlidar.stl
+[10.039s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/config
+[10.039s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/config/nav2_params_vec.yaml
+[10.039s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/config/nav2_params.yaml
+[10.039s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/config/lidar.rviz
+[10.039s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/config/with_robot.world
+[10.039s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/config/mapper_params.yaml
+[10.039s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds
+[10.039s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/huksberry
+[10.039s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/huksberry/model.sdf
+[10.039s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/huksberry/model.config
+[10.040s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/huksberry/meshes
+[10.040s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/huksberry/meshes/huksberry.dae
+[10.040s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/animated_box.world
+[10.040s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/realMap
+[10.040s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/realMap/model.sdf
+[10.040s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/realMap/model.config
+[10.040s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/worlds/realMap.world
+[10.041s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models
+[10.041s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/models/simple_building
+[10.043s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/libanimated_box_1.so
+[10.044s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/libanimated_box_2.so
+[10.045s] -- Set non-toolchain portion of runtime path of "/home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/libanimated_box_2.so" to ""
+[10.046s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/libanimated_box_3.so
+[10.047s] -- Set non-toolchain portion of runtime path of "/home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/libanimated_box_3.so" to ""
+[10.048s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/libanimated_box_4.so
+[10.049s] -- Set non-toolchain portion of runtime path of "/home/addinedu/Desktop/my_mobile/install/my_robot_description/lib/libanimated_box_4.so" to ""
+[10.050s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/bin/integrated_main
+[10.050s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/include/
+[10.050s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/include//my_robot_description
+[10.050s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/environment/library_path.sh
+[10.051s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/environment/library_path.dsv
+[10.051s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[10.051s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[10.051s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[10.051s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[10.051s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/environment/path.sh
+[10.051s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[10.051s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/local_setup.bash
+[10.051s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/local_setup.sh
+[10.052s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[10.052s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[10.052s] -- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/package.dsv
+[10.052s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[10.052s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/cmake/ament_cmake_export_libraries-extras.cmake
+[10.052s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[10.052s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[10.052s] -- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_description/share/my_robot_description/package.xml
+[10.054s] Invoked command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description' returned '0': /usr/local/bin/cmake --install /home/addinedu/Desktop/my_mobile/build/my_robot_description

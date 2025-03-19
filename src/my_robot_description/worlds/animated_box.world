@@ -1,0 +1,97 @@
+<sdf version="1.7"> <!-- ✅ 버전 업그레이드 -->
+  <world name="animated_box_elements">
+
+    <!-- ✅ 모든 환경 요소 삭제: light, gui 등 -->
+
+    <!-- ✅ 움직이는 박스 모델들만 남김 -->
+
+    <model name="box1">
+      <pose>3 1 0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.4 0.5 0.8</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.4 0.5 0.8</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+      <plugin name="push_animate_1" filename="libanimated_box_1.so"/>
+    </model>
+
+    <model name="box2">
+      <pose> -2.5 -2 0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.6 0.8 0.6</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.6 0.8 0.6</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+      <plugin name="push_animate_2" filename="libanimated_box_2.so"/>
+    </model>
+
+    <model name="box3">
+      <pose>-0.5 -2 0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 2 3</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1 2 3</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+      <plugin name="push_animate_3" filename="libanimated_box_3.so"/>
+    </model>
+
+    <model name="box4">
+      <pose>-4.5 -8 0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.4 0.6 0.4</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.4 0.6 0.4</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+      <plugin name="push_animate_4" filename="libanimated_box_4.so"/>
+    </model>
+
+  </world>
+</sdf>

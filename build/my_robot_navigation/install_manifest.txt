@@ -13,6 +13,8 @@
 /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/maps/map_name.yaml
 /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/rviz/nav2_view.rviz
 /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/publish/nav2_mygoal_publisher.py
+/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/behavior_trees/navigate_to_pose_w_replanning_and_recovery.xml
+/home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/behavior_trees/navigate_through_poses_w_replanning_and_recovery.xml
 /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/ament_index/resource_index/package_run_dependencies/my_robot_navigation
 /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/ament_index/resource_index/parent_prefix_path/my_robot_navigation
 /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/environment/ament_prefix_path.sh

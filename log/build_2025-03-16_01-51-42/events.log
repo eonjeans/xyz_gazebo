@@ -1,0 +1,346 @@
+[0.000000] (-) TimerEvent: {}
+[0.000178] (goal) JobQueued: {'identifier': 'goal', 'dependencies': OrderedDict()}
+[0.000223] (my_robot_description) JobQueued: {'identifier': 'my_robot_description', 'dependencies': OrderedDict()}
+[0.000500] (my_robot_navigation) JobQueued: {'identifier': 'my_robot_navigation', 'dependencies': OrderedDict()}
+[0.000545] (goal) JobStarted: {'identifier': 'goal'}
+[0.005849] (my_robot_description) JobStarted: {'identifier': 'my_robot_description'}
+[0.008684] (my_robot_navigation) JobStarted: {'identifier': 'my_robot_navigation'}
+[0.099299] (-) TimerEvent: {}
+[0.199621] (-) TimerEvent: {}
+[0.243648] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'cmake'}
+[0.244084] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'build'}
+[0.244660] (my_robot_description) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/addinedu/Desktop/my_mobile/build/my_robot_description', '--', '-j16', '-l16'], 'cwd': '/home/addinedu/Desktop/my_mobile/build/my_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'addinedu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/addinedu'), ('OLDPWD', '/home/addinedu'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2202'), ('SYSTEMD_EXEC_PID', '2731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3728'), ('NVM_DIR', '/home/addinedu/.nvm'), ('COLCON_PREFIX_PATH', '/home/addinedu/Desktop/my_mobile/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'addinedu'), ('JOURNAL_STREAM', '8:21160'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'addinedu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/addinedu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/addinedu-Bravo-17-D7VF:@/tmp/.ICE-unix/2481,unix/addinedu-Bravo-17-D7VF:/tmp/.ICE-unix/2481'), ('INVOCATION_ID', '8cee4afd7bb548a7b790107c14b6f9fb'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '133'), ('AMENT_PREFIX_PATH', '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation:/home/addinedu/Desktop/my_mobile/install/my_robot_description:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e6cc60fe-d482-4d53-8b72-ecb2ac72175c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/addinedu/Desktop/my_mobile/build/my_robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NVM_RC_VERSION', ''), ('CMAKE_PREFIX_PATH', '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation:/home/addinedu/Desktop/my_mobile/install/my_robot_description:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble')]), 'shell': False}
+[0.247632] (my_robot_navigation) JobProgress: {'identifier': 'my_robot_navigation', 'progress': 'cmake'}
+[0.247963] (my_robot_navigation) JobProgress: {'identifier': 'my_robot_navigation', 'progress': 'build'}
+[0.248186] (my_robot_navigation) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/addinedu/Desktop/my_mobile/build/my_robot_navigation', '--', '-j16', '-l16'], 'cwd': '/home/addinedu/Desktop/my_mobile/build/my_robot_navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'addinedu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/addinedu'), ('OLDPWD', '/home/addinedu'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2202'), ('SYSTEMD_EXEC_PID', '2731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3728'), ('NVM_DIR', '/home/addinedu/.nvm'), ('COLCON_PREFIX_PATH', '/home/addinedu/Desktop/my_mobile/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'addinedu'), ('JOURNAL_STREAM', '8:21160'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'addinedu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/addinedu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/addinedu-Bravo-17-D7VF:@/tmp/.ICE-unix/2481,unix/addinedu-Bravo-17-D7VF:/tmp/.ICE-unix/2481'), ('INVOCATION_ID', '8cee4afd7bb548a7b790107c14b6f9fb'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '133'), ('AMENT_PREFIX_PATH', '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation:/home/addinedu/Desktop/my_mobile/install/my_robot_description:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e6cc60fe-d482-4d53-8b72-ecb2ac72175c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/addinedu/Desktop/my_mobile/build/my_robot_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NVM_RC_VERSION', ''), ('CMAKE_PREFIX_PATH', '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation:/home/addinedu/Desktop/my_mobile/install/my_robot_description:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble')]), 'shell': False}
+[0.255943] (my_robot_description) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.256174] (my_robot_description) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.256304] (my_robot_description) StderrLine: {'line': b'  CMake.\n'}
+[0.256396] (my_robot_description) StderrLine: {'line': b'\n'}
+[0.256495] (my_robot_description) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.256573] (my_robot_description) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.256663] (my_robot_description) StderrLine: {'line': b'\n'}
+[0.256738] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.268178] (my_robot_navigation) CommandEnded: {'returncode': 0}
+[0.268720] (my_robot_navigation) JobProgress: {'identifier': 'my_robot_navigation', 'progress': 'install'}
+[0.272875] (my_robot_navigation) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/addinedu/Desktop/my_mobile/build/my_robot_navigation'], 'cwd': '/home/addinedu/Desktop/my_mobile/build/my_robot_navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'addinedu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/addinedu'), ('OLDPWD', '/home/addinedu'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2202'), ('SYSTEMD_EXEC_PID', '2731'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3728'), ('NVM_DIR', '/home/addinedu/.nvm'), ('COLCON_PREFIX_PATH', '/home/addinedu/Desktop/my_mobile/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'addinedu'), ('JOURNAL_STREAM', '8:21160'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'addinedu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/addinedu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/addinedu-Bravo-17-D7VF:@/tmp/.ICE-unix/2481,unix/addinedu-Bravo-17-D7VF:/tmp/.ICE-unix/2481'), ('INVOCATION_ID', '8cee4afd7bb548a7b790107c14b6f9fb'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '133'), ('AMENT_PREFIX_PATH', '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation:/home/addinedu/Desktop/my_mobile/install/my_robot_description:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e6cc60fe-d482-4d53-8b72-ecb2ac72175c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/addinedu/Desktop/my_mobile/build/my_robot_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NVM_RC_VERSION', ''), ('CMAKE_PREFIX_PATH', '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation:/home/addinedu/Desktop/my_mobile/install/my_robot_description:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble')]), 'shell': False}
+[0.275694] (my_robot_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.275843] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/launch\n'}
+[0.275896] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/launch/localization_launch.xml\n'}
+[0.275941] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/launch/bringup_launch.xml\n'}
+[0.275987] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/launch/nav2_view.launch.xml\n'}
+[0.276050] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/launch/navigation_launch.xml\n'}
+[0.276144] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/launch/map_building.launch.xml\n'}
+[0.276191] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/config\n'}
+[0.276288] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/config/nav2_params_vec.yaml\n'}
+[0.276423] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/config/nav2_params.yaml\n'}
+[0.276610] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/config/mapper_params.yaml\n'}
+[0.276705] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/config/nav2_params copy.yaml\n'}
+[0.276797] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/maps\n'}
+[0.276891] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/maps/realMap.pgm\n'}
+[0.276982] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/maps/map_name.pgm\n'}
+[0.277066] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/maps/realMap.yaml\n'}
+[0.277156] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/maps/map_name.yaml\n'}
+[0.277271] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/rviz\n'}
+[0.277437] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/rviz/nav2_view.rviz\n'}
+[0.277507] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/publish\n'}
+[0.277542] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/publish/nav2_mygoal_publisher.py\n'}
+[0.277580] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/ament_index/resource_index/package_run_dependencies/my_robot_navigation\n'}
+[0.277614] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/ament_index/resource_index/parent_prefix_path/my_robot_navigation\n'}
+[0.277730] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/environment/ament_prefix_path.sh\n'}
+[0.277778] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/environment/ament_prefix_path.dsv\n'}
+[0.277824] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/environment/path.sh\n'}
+[0.277863] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/environment/path.dsv\n'}
+[0.277899] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/local_setup.bash\n'}
+[0.277936] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/local_setup.sh\n'}
+[0.277982] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/local_setup.zsh\n'}
+[0.278040] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/local_setup.dsv\n'}
+[0.278079] (my_robot_navigation) StdoutLine: {'line': b'-- Installing: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/package.dsv\n'}
+[0.278116] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/ament_index/resource_index/packages/my_robot_navigation\n'}
+[0.278154] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/cmake/my_robot_navigationConfig.cmake\n'}
+[0.278287] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/cmake/my_robot_navigationConfig-version.cmake\n'}
+[0.278343] (my_robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/addinedu/Desktop/my_mobile/install/my_robot_navigation/share/my_robot_navigation/package.xml\n'}
+[0.278989] (my_robot_navigation) CommandEnded: {'returncode': 0}
+[0.289157] (my_robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.291500] (my_robot_navigation) JobEnded: {'identifier': 'my_robot_navigation', 'rc': 0}
+[0.299725] (-) TimerEvent: {}
+[0.399988] (-) TimerEvent: {}
+[0.475799] (my_robot_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500130] (-) TimerEvent: {}
+[0.530552] (my_robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.537019] (my_robot_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.548831] (my_robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.564900] (my_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.583911] (my_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.585480] (goal) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/goal', 'build', '--build-base', '/home/addinedu/Desktop/my_mobile/build/goal/build', 'install', '--record', '/home/addinedu/Desktop/my_mobile/build/goal/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/addinedu/Desktop/my_mobile/src/goal', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'addinedu', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/addinedu', 'OLDPWD': '/home/addinedu', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '2202', 'SYSTEMD_EXEC_PID': '2731', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3728', 'NVM_DIR': '/home/addinedu/.nvm', 'COLCON_PREFIX_PATH': '/home/addinedu/Desktop/my_mobile/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'addinedu', 'JOURNAL_STREAM': '8:21160', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'addinedu', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/home/addinedu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/addinedu-Bravo-17-D7VF:@/tmp/.ICE-unix/2481,unix/addinedu-Bravo-17-D7VF:/tmp/.ICE-unix/2481', 'INVOCATION_ID': '8cee4afd7bb548a7b790107c14b6f9fb', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '133', 'AMENT_PREFIX_PATH': '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation:/home/addinedu/Desktop/my_mobile/install/my_robot_description:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:e6cc60fe-d482-4d53-8b72-ecb2ac72175c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/addinedu/Desktop/my_mobile/build/goal', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/addinedu/Desktop/my_mobile/build/goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages:/home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'NVM_RC_VERSION': '', 'CMAKE_PREFIX_PATH': '/home/addinedu/Desktop/my_mobile/install/my_robot_navigation:/home/addinedu/Desktop/my_mobile/install/my_robot_description'}, 'shell': False}
+[0.600222] (-) TimerEvent: {}
+[0.639505] (my_robot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.643085] (my_robot_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700327] (-) TimerEvent: {}
+[0.741620] (my_robot_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[0.770802] (my_robot_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[0.800455] (-) TimerEvent: {}
+[0.806750] (goal) StdoutLine: {'line': b'running egg_info\n'}
+[0.807257] (goal) StdoutLine: {'line': b'writing ../../build/goal/goal.egg-info/PKG-INFO\n'}
+[0.807483] (goal) StdoutLine: {'line': b'writing dependency_links to ../../build/goal/goal.egg-info/dependency_links.txt\n'}
+[0.807724] (goal) StdoutLine: {'line': b'writing entry points to ../../build/goal/goal.egg-info/entry_points.txt\n'}
+[0.807896] (goal) StdoutLine: {'line': b'writing requirements to ../../build/goal/goal.egg-info/requires.txt\n'}
+[0.808014] (goal) StdoutLine: {'line': b'writing top-level names to ../../build/goal/goal.egg-info/top_level.txt\n'}
+[0.809246] (goal) StdoutLine: {'line': b"reading manifest file '../../build/goal/goal.egg-info/SOURCES.txt'\n"}
+[0.809891] (goal) StdoutLine: {'line': b"writing manifest file '../../build/goal/goal.egg-info/SOURCES.txt'\n"}
+[0.809990] (goal) StdoutLine: {'line': b'running build\n'}
+[0.810045] (goal) StdoutLine: {'line': b'running build_py\n'}
+[0.810352] (goal) StdoutLine: {'line': b'running install\n'}
+[0.810547] (goal) StdoutLine: {'line': b'running install_lib\n'}
+[0.811477] (goal) StdoutLine: {'line': b'running install_data\n'}
+[0.811601] (goal) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.812859] (goal) StdoutLine: {'line': b"removing '/home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages/goal-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[0.813149] (goal) StdoutLine: {'line': b'Copying ../../build/goal/goal.egg-info to /home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages/goal-0.0.1-py3.10.egg-info\n'}
+[0.813864] (goal) StdoutLine: {'line': b'running install_scripts\n'}
+[0.814147] (my_robot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.825105] (my_robot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.829708] (goal) StdoutLine: {'line': b'Installing goal_navigator script to /home/addinedu/Desktop/my_mobile/install/goal/lib/goal\n'}
+[0.829961] (goal) StdoutLine: {'line': b'Installing pose_estimator script to /home/addinedu/Desktop/my_mobile/install/goal/lib/goal\n'}
+[0.830074] (goal) StdoutLine: {'line': b'Installing user_input script to /home/addinedu/Desktop/my_mobile/install/goal/lib/goal\n'}
+[0.830298] (goal) StdoutLine: {'line': b"writing list of installed files to '/home/addinedu/Desktop/my_mobile/build/goal/install.log'\n"}
+[0.852290] (goal) CommandEnded: {'returncode': 0}
+[0.856709] (goal) JobEnded: {'identifier': 'goal', 'rc': 0}
+[0.900584] (-) TimerEvent: {}
+[1.000896] (-) TimerEvent: {}
+[1.022494] (my_robot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.023332] (my_robot_description) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.087848] (my_robot_description) StdoutLine: {'line': b'-- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[1.095196] (my_robot_description) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2")\n'}
+[1.096366] (my_robot_description) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.100994] (-) TimerEvent: {}
+[1.108894] (my_robot_description) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.201129] (-) TimerEvent: {}
+[1.215451] (my_robot_description) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0")\n'}
+[1.265308] (my_robot_description) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0")\n'}
+[1.265977] (my_robot_description) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/dart/cmake/DARTFindBoost.cmake:20 (find_package):\n'}
+[1.266147] (my_robot_description) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[1.266250] (my_robot_description) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[1.266356] (my_robot_description) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.266432] (my_robot_description) StderrLine: {'line': b'\n'}
+[1.266506] (my_robot_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.266570] (my_robot_description) StderrLine: {'line': b'  /usr/share/dart/cmake/dart_dartComponent.cmake:6 (include)\n'}
+[1.266635] (my_robot_description) StderrLine: {'line': b'  /usr/share/dart/cmake/DARTConfig.cmake:73 (include)\n'}
+[1.266710] (my_robot_description) StderrLine: {'line': b'  /usr/share/dart/cmake/DARTConfig.cmake:133 (dart_traverse_components)\n'}
+[1.266778] (my_robot_description) StderrLine: {'line': b'  /usr/share/dart/cmake/DARTConfig.cmake:181 (dart_package_init)\n'}
+[1.266844] (my_robot_description) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:166 (find_package)\n'}
+[1.266911] (my_robot_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)\n'}
+[1.266977] (my_robot_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[1.267041] (my_robot_description) StderrLine: {'line': b'  CMakeLists.txt:16 (find_package)\n'}
+[1.267113] (my_robot_description) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.267180] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[1.293032] (my_robot_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart\n'}
+[1.299782] (my_robot_description) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:197 (find_package):\n'}
+[1.299935] (my_robot_description) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[1.300022] (my_robot_description) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[1.300101] (my_robot_description) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.300178] (my_robot_description) StderrLine: {'line': b'\n'}
+[1.300265] (my_robot_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.300357] (my_robot_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)\n'}
+[1.300466] (my_robot_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[1.300541] (my_robot_description) StderrLine: {'line': b'  CMakeLists.txt:16 (find_package)\n'}
+[1.300612] (my_robot_description) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.300695] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[1.301216] (-) TimerEvent: {}
+[1.329040] (my_robot_description) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time\n'}
+[1.355744] (my_robot_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4")\n'}
+[1.361638] (my_robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.371161] (my_robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.372819] (my_robot_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.373112] (my_robot_description) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.377665] (my_robot_description) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.389593] (my_robot_description) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.401314] (-) TimerEvent: {}
+[1.421115] (my_robot_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.429842] (my_robot_description) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.430154] (my_robot_description) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:309 (find_package):\n'}
+[1.430307] (my_robot_description) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[1.430408] (my_robot_description) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[1.430479] (my_robot_description) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.430547] (my_robot_description) StderrLine: {'line': b'\n'}
+[1.430614] (my_robot_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.430681] (my_robot_description) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)\n'}
+[1.430747] (my_robot_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)\n'}
+[1.430824] (my_robot_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[1.430893] (my_robot_description) StderrLine: {'line': b'  CMakeLists.txt:16 (find_package)\n'}
+[1.430959] (my_robot_description) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.430991] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[1.433888] (my_robot_description) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:318 (find_package):\n'}
+[1.434044] (my_robot_description) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[1.434135] (my_robot_description) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[1.434210] (my_robot_description) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[1.434308] (my_robot_description) StderrLine: {'line': b'\n'}
+[1.434390] (my_robot_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.434462] (my_robot_description) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)\n'}
+[1.434543] (my_robot_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)\n'}
+[1.434617] (my_robot_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[1.434688] (my_robot_description) StderrLine: {'line': b'  CMakeLists.txt:16 (find_package)\n'}
+[1.434754] (my_robot_description) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.434817] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[1.437307] (my_robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.444648] (my_robot_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.444794] (my_robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.451322] (my_robot_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.451464] (my_robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.458032] (my_robot_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.458175] (my_robot_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.464863] (my_robot_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.465012] (my_robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.471458] (my_robot_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.471597] (my_robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.478226] (my_robot_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.501432] (-) TimerEvent: {}
+[1.601685] (-) TimerEvent: {}
+[1.610988] (my_robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.614924] (my_robot_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.615119] (my_robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.631807] (my_robot_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3")\n'}
+[1.641975] (my_robot_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.646822] (my_robot_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.661095] (my_robot_description) StdoutLine: {'line': b'--   Found libzmq, version 4.3.4\n'}
+[1.697371] (my_robot_description) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4")\n'}
+[1.701789] (-) TimerEvent: {}
+[1.703645] (my_robot_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.716306] (my_robot_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.748438] (my_robot_description) StdoutLine: {'line': b'-- Found UUID: TRUE\n'}
+[1.750916] (my_robot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.751056] (my_robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.769681] (my_robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.774842] (my_robot_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.787071] (my_robot_description) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.801886] (-) TimerEvent: {}
+[1.821942] (my_robot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.824425] (my_robot_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.824666] (my_robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.825053] (my_robot_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.826170] (my_robot_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.827214] (my_robot_description) StdoutLine: {'line': b'-- Found DL: TRUE\n'}
+[1.839520] (my_robot_description) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0")\n'}
+[1.840078] (my_robot_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.842493] (my_robot_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.842691] (my_robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.842975] (my_robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.846835] (my_robot_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.846973] (my_robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.901987] (-) TimerEvent: {}
+[1.922386] (my_robot_description) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")\n'}
+[1.925729] (my_robot_description) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):\n'}
+[1.925889] (my_robot_description) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[1.925975] (my_robot_description) StderrLine: {'line': b'  CMake.\n'}
+[1.926048] (my_robot_description) StderrLine: {'line': b'\n'}
+[1.926117] (my_robot_description) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[1.926208] (my_robot_description) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[1.926312] (my_robot_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.926388] (my_robot_description) StderrLine: {'line': b'  /usr/share/cmake/ignition-cmake2/cmake2/FindJSONCPP.cmake:34 (find_package)\n'}
+[1.926457] (my_robot_description) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/ignition-fuel_tools4/ignition-fuel_tools4-config.cmake:94 (find_package)\n'}
+[1.926512] (my_robot_description) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:251 (find_package)\n'}
+[1.926544] (my_robot_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)\n'}
+[1.926576] (my_robot_description) StderrLine: {'line': b'  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)\n'}
+[1.926606] (my_robot_description) StderrLine: {'line': b'  CMakeLists.txt:16 (find_package)\n'}
+[1.926634] (my_robot_description) StderrLine: {'line': b'\n'}
+[1.926666] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[1.930950] (my_robot_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.945401] (my_robot_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.981121] (my_robot_description) StdoutLine: {'line': b'-- Found JSONCPP: TRUE\n'}
+[1.987193] (my_robot_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.000443] (my_robot_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.002074] (-) TimerEvent: {}
+[2.033418] (my_robot_description) StdoutLine: {'line': b'-- Found ZIP: TRUE\n'}
+[2.033778] (my_robot_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.034102] (my_robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.034439] (my_robot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.038433] (my_robot_description) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[2.038696] (my_robot_description) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[2.053473] (my_robot_description) StdoutLine: {'line': b'--   Found tbb, version 2021.9.0\n'}
+[2.088719] (my_robot_description) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[2.102190] (-) TimerEvent: {}
+[2.149665] (my_robot_description) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:18 (find_package):\n'}
+[2.149858] (my_robot_description) StderrLine: {'line': b'  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake\n'}
+[2.149955] (my_robot_description) StderrLine: {'line': b'  --help-policy CMP0167" for policy details.  Use the cmake_policy command to\n'}
+[2.150037] (my_robot_description) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[2.150108] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.150178] (my_robot_description) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.150263] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.152432] (my_robot_description) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system\n'}
+[2.159765] (my_robot_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4")\n'}
+[2.202328] (-) TimerEvent: {}
+[2.221655] (my_robot_description) StdoutLine: {'line': b'-- Configuring done (2.0s)\n'}
+[2.226676] (my_robot_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:45 (add_library):\n'}
+[2.226827] (my_robot_description) StderrLine: {'line': b'  Cannot find source file:\n'}
+[2.226919] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.227005] (my_robot_description) StderrLine: {'line': b'    src/animated_box_plugin/animated_box_1.cc\n'}
+[2.227079] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.227152] (my_robot_description) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n'}
+[2.227226] (my_robot_description) StderrLine: {'line': b'  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n'}
+[2.227323] (my_robot_description) StderrLine: {'line': b'  .f95 .f03 .hip .ispc\n'}
+[2.227404] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.227477] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.230092] (my_robot_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:54 (add_library):\n'}
+[2.230239] (my_robot_description) StderrLine: {'line': b'  Cannot find source file:\n'}
+[2.230368] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.230468] (my_robot_description) StderrLine: {'line': b'    src/animated_box_plugin/animated_box_2.cc\n'}
+[2.230549] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.230759] (my_robot_description) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n'}
+[2.230883] (my_robot_description) StderrLine: {'line': b'  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n'}
+[2.230993] (my_robot_description) StderrLine: {'line': b'  .f95 .f03 .hip .ispc\n'}
+[2.231122] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.231203] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.231294] (my_robot_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:63 (add_library):\n'}
+[2.231356] (my_robot_description) StderrLine: {'line': b'  Cannot find source file:\n'}
+[2.231394] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.231457] (my_robot_description) StderrLine: {'line': b'    src/animated_box_plugin/animated_box_3.cc\n'}
+[2.231596] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.231646] (my_robot_description) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n'}
+[2.231686] (my_robot_description) StderrLine: {'line': b'  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n'}
+[2.231723] (my_robot_description) StderrLine: {'line': b'  .f95 .f03 .hip .ispc\n'}
+[2.231756] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.231788] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.231819] (my_robot_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:72 (add_library):\n'}
+[2.231851] (my_robot_description) StderrLine: {'line': b'  Cannot find source file:\n'}
+[2.231883] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.231914] (my_robot_description) StderrLine: {'line': b'    src/animated_box_plugin/animated_box_4.cc\n'}
+[2.231953] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.231985] (my_robot_description) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n'}
+[2.232017] (my_robot_description) StderrLine: {'line': b'  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n'}
+[2.232049] (my_robot_description) StderrLine: {'line': b'  .f95 .f03 .hip .ispc\n'}
+[2.232086] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.232117] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.232148] (my_robot_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:83 (add_executable):\n'}
+[2.232179] (my_robot_description) StderrLine: {'line': b'  Cannot find source file:\n'}
+[2.232209] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.232251] (my_robot_description) StderrLine: {'line': b'    src/animated_box_plugin/integrated_main.cc\n'}
+[2.232299] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.232337] (my_robot_description) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n'}
+[2.232371] (my_robot_description) StderrLine: {'line': b'  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n'}
+[2.232402] (my_robot_description) StderrLine: {'line': b'  .f95 .f03 .hip .ispc\n'}
+[2.232433] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.232463] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.234290] (my_robot_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:45 (add_library):\n'}
+[2.234375] (my_robot_description) StderrLine: {'line': b'  No SOURCES given to target: animated_box_1\n'}
+[2.234415] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.234461] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.234508] (my_robot_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:54 (add_library):\n'}
+[2.234540] (my_robot_description) StderrLine: {'line': b'  No SOURCES given to target: animated_box_2\n'}
+[2.234571] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.234602] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.234632] (my_robot_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:63 (add_library):\n'}
+[2.234662] (my_robot_description) StderrLine: {'line': b'  No SOURCES given to target: animated_box_3\n'}
+[2.234691] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.234720] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.234750] (my_robot_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:72 (add_library):\n'}
+[2.234791] (my_robot_description) StderrLine: {'line': b'  No SOURCES given to target: animated_box_4\n'}
+[2.234868] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.234945] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.235023] (my_robot_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:83 (add_executable):\n'}
+[2.235107] (my_robot_description) StderrLine: {'line': b'  No SOURCES given to target: integrated_main\n'}
+[2.235186] (my_robot_description) StderrLine: {'line': b'\n'}
+[2.235297] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.235394] (my_robot_description) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[2.242762] (my_robot_description) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[2.244964] (my_robot_description) CommandEnded: {'returncode': 2}
+[2.250467] (my_robot_description) JobEnded: {'identifier': 'my_robot_description', 'rc': 2}
+[2.260812] (-) EventReactorShutdown: {}

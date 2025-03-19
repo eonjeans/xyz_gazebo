@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ff6aa3d7b9b678f05c56.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_robot_description",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "animated_box_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-animated_box_1-480c4825ceb5d8157d15.json",
+					"name" : "animated_box_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "animated_box_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-animated_box_2-5906f2314343cd0315c6.json",
+					"name" : "animated_box_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "animated_box_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-animated_box_3-5197e606f7bcf5e625e4.json",
+					"name" : "animated_box_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "animated_box_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-animated_box_4-193506a2a4849a671759.json",
+					"name" : "animated_box_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "integrated_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-integrated_main-86e1465bd99ef59b7951.json",
+					"name" : "integrated_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_description_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_description_uninstall-714842d54094b444bd41.json",
+					"name" : "my_robot_description_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-55c183418561d608bde3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/addinedu/Desktop/my_mobile/build/my_robot_description",
+		"source" : "/home/addinedu/Desktop/my_mobile/src/my_robot_description"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

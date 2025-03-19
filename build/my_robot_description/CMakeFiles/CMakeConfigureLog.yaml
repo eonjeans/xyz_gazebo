@@ -584,3 +584,53 @@ events:
       Running the CXX compiler's linker: "/usr/bin/ld" "-v"
       GNU ld (GNU Binutils for Ubuntu) 2.38
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/local/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfig.cmake:40 (find_package)"
+      - "/opt/ros/humble/share/rcl_logging_spdlog/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/humble/share/rcl_logging_spdlog/cmake/rcl_logging_spdlogConfig.cmake:41 (include)"
+      - "/opt/ros/humble/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/humble/share/rcl/cmake/rclConfig.cmake:41 (include)"
+      - "/opt/ros/humble/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/humble/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)"
+      - "/opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)"
+      - "CMakeLists.txt:15 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/CMakeScratch/TryCompile-LSMgNn"
+      binary: "/home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/CMakeScratch/TryCompile-LSMgNn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/CMakeScratch/TryCompile-LSMgNn'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_163aa/fast
+        gmake[1]: Entering directory '/home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/CMakeScratch/TryCompile-LSMgNn'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_163aa.dir/build.make CMakeFiles/cmTC_163aa.dir/build
+        gmake[2]: Entering directory '/home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/CMakeScratch/TryCompile-LSMgNn'
+        Building C object CMakeFiles/cmTC_163aa.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_163aa.dir/src.c.o -c /home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/CMakeScratch/TryCompile-LSMgNn/src.c
+        Linking C executable cmTC_163aa
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_163aa.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_163aa.dir/src.c.o -o cmTC_163aa
+        gmake[2]: Leaving directory '/home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/CMakeScratch/TryCompile-LSMgNn'
+        gmake[1]: Leaving directory '/home/addinedu/Desktop/my_mobile/build/my_robot_description/CMakeFiles/CMakeScratch/TryCompile-LSMgNn'
+        
+      exitCode: 0
+...

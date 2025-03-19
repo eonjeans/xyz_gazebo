@@ -1,0 +1,4 @@
+Invoking command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description': /usr/local/bin/cmake --build /home/addinedu/Desktop/my_mobile/build/my_robot_description -- -j16 -l16
+Invoked command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description' returned '0': /usr/local/bin/cmake --build /home/addinedu/Desktop/my_mobile/build/my_robot_description -- -j16 -l16
+Invoking command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description': /usr/local/bin/cmake --install /home/addinedu/Desktop/my_mobile/build/my_robot_description
+Invoked command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description' returned '0': /usr/local/bin/cmake --install /home/addinedu/Desktop/my_mobile/build/my_robot_description

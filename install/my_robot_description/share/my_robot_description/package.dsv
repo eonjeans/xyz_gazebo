@@ -1,6 +1,15 @@
 source;share/my_robot_description/hook/cmake_prefix_path.ps1
 source;share/my_robot_description/hook/cmake_prefix_path.dsv
 source;share/my_robot_description/hook/cmake_prefix_path.sh
+source;share/my_robot_description/hook/ld_library_path_lib.ps1
+source;share/my_robot_description/hook/ld_library_path_lib.dsv
+source;share/my_robot_description/hook/ld_library_path_lib.sh
+source;share/my_robot_description/hook/path.ps1
+source;share/my_robot_description/hook/path.dsv
+source;share/my_robot_description/hook/path.sh
+source;share/my_robot_description/hook/pythonscriptspath.ps1
+source;share/my_robot_description/hook/pythonscriptspath.dsv
+source;share/my_robot_description/hook/pythonscriptspath.sh
 source;share/my_robot_description/local_setup.bash
 source;share/my_robot_description/local_setup.dsv
 source;share/my_robot_description/local_setup.ps1

@@ -49,6 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/addinedu/Desktop/my_mobile/src/my_robot_navigation/maps"
     "/home/addinedu/Desktop/my_mobile/src/my_robot_navigation/rviz"
     "/home/addinedu/Desktop/my_mobile/src/my_robot_navigation/publish"
+    "/home/addinedu/Desktop/my_mobile/src/my_robot_navigation/behavior_trees"
     )
 endif()
 

@@ -1,0 +1,23 @@
+[0.636s] Invoking command in '/home/addinedu/Desktop/my_mobile/src/goal': PYTHONPATH=/home/addinedu/Desktop/my_mobile/build/goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/goal build --build-base /home/addinedu/Desktop/my_mobile/build/goal/build install --record /home/addinedu/Desktop/my_mobile/build/goal/install.log --single-version-externally-managed install_data
+[0.793s] running egg_info
+[0.793s] writing ../../build/goal/goal.egg-info/PKG-INFO
+[0.793s] writing dependency_links to ../../build/goal/goal.egg-info/dependency_links.txt
+[0.793s] writing entry points to ../../build/goal/goal.egg-info/entry_points.txt
+[0.793s] writing requirements to ../../build/goal/goal.egg-info/requires.txt
+[0.793s] writing top-level names to ../../build/goal/goal.egg-info/top_level.txt
+[0.795s] reading manifest file '../../build/goal/goal.egg-info/SOURCES.txt'
+[0.795s] writing manifest file '../../build/goal/goal.egg-info/SOURCES.txt'
+[0.795s] running build
+[0.795s] running build_py
+[0.796s] running install
+[0.796s] running install_lib
+[0.797s] running install_data
+[0.797s] running install_egg_info
+[0.798s] removing '/home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages/goal-0.0.1-py3.10.egg-info' (and everything under it)
+[0.799s] Copying ../../build/goal/goal.egg-info to /home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages/goal-0.0.1-py3.10.egg-info
+[0.800s] running install_scripts
+[0.814s] Installing goal_navigator script to /home/addinedu/Desktop/my_mobile/install/goal/lib/goal
+[0.814s] Installing pose_estimator script to /home/addinedu/Desktop/my_mobile/install/goal/lib/goal
+[0.814s] Installing user_input script to /home/addinedu/Desktop/my_mobile/install/goal/lib/goal
+[0.815s] writing list of installed files to '/home/addinedu/Desktop/my_mobile/build/goal/install.log'
+[0.833s] Invoked command in '/home/addinedu/Desktop/my_mobile/src/goal' returned '0': PYTHONPATH=/home/addinedu/Desktop/my_mobile/build/goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinedu/Desktop/my_mobile/install/goal/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/goal build --build-base /home/addinedu/Desktop/my_mobile/build/goal/build install --record /home/addinedu/Desktop/my_mobile/build/goal/install.log --single-version-externally-managed install_data

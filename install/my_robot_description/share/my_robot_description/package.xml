@@ -1,18 +1,41 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>my_robot_description</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="igwonlim@gmail.com">addinedu</maintainer>
-  <license>TODO: License declaration</license>
 
+  <!-- 패키지 기본 정보 -->
+  <name>my_robot_description</name>
+  <version>0.0.1</version>
+  <description>Robot description, Gazebo simulation, and dynamic obstacles (animated_box plugin) for my robot.</description>
+
+  <maintainer email="igwonlim@gmail.com">addinedu</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- 빌드 도구 -->
   <buildtool_depend>ament_cmake</buildtool_depend>
 
+  <!-- 빌드 의존성 -->
+  <build_depend>rclcpp</build_depend>
+  <build_depend>gazebo_dev</build_depend>
+  <build_depend>gazebo_msgs</build_depend>
+  <build_depend>boost</build_depend>       <!-- 추가 -->
+  <build_depend>protobuf</build_depend>    <!-- 추가 -->
+  <build_depend>tbb</build_depend>         <!-- 추가 -->
+
+  <!-- 실행 의존성 -->
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>gazebo_dev</exec_depend>
+  <exec_depend>gazebo_msgs</exec_depend>
+  <exec_depend>boost</exec_depend>         <!-- 추가 -->
+  <exec_depend>protobuf</exec_depend>      <!-- 추가 -->
+  <exec_depend>tbb</exec_depend>           <!-- 추가 -->
+
+  <!-- 테스트 의존성 -->
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
+  <!-- export 정보 -->
   <export>
     <build_type>ament_cmake</build_type>
   </export>
+
 </package>

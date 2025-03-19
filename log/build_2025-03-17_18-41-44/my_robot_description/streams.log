@@ -1,0 +1,6 @@
+[0.722s] Invoking command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --build /home/addinedu/Desktop/my_mobile/build/my_robot_description -- -j16 -l16
+[0.791s] [ 20%] Built target integrated_main
+[0.828s] [ 60%] Built target animated_box_2
+[0.828s] [ 70%] Built target animated_box_1
+[0.828s] [100%] Built target animated_box_3
+[0.828s] [100%] Built target animated_box_4

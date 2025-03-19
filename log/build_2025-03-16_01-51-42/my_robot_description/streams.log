@@ -1,0 +1,245 @@
+[0.240s] Invoking command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --build /home/addinedu/Desktop/my_mobile/build/my_robot_description -- -j16 -l16
+[0.250s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.250s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.250s]   CMake.
+[0.251s] 
+[0.251s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.251s]   CMake that the project does not need compatibility with older versions.
+[0.251s] 
+[0.251s] [0m
+[0.284s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.470s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.525s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.531s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.543s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.559s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.578s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.634s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.637s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.736s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.765s] -- Found FastRTPS: /opt/ros/humble/include
+[0.808s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.819s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.017s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.018s] -- Found Threads: TRUE
+[1.082s] -- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[1.089s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2")
+[1.091s] -- Checking for module 'bullet>=2.82'
+[1.103s] --   Found bullet, version 3.05
+[1.210s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0")
+[1.260s] -- Found assimp: /usr/include (found version "5.2.0")
+[1.260s] [33mCMake Warning (dev) at /usr/share/dart/cmake/DARTFindBoost.cmake:20 (find_package):
+[1.260s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.260s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.261s]   set the policy and suppress this warning.
+[1.261s] 
+[1.261s] Call Stack (most recent call first):
+[1.261s]   /usr/share/dart/cmake/dart_dartComponent.cmake:6 (include)
+[1.261s]   /usr/share/dart/cmake/DARTConfig.cmake:73 (include)
+[1.261s]   /usr/share/dart/cmake/DARTConfig.cmake:133 (dart_traverse_components)
+[1.261s]   /usr/share/dart/cmake/DARTConfig.cmake:181 (dart_package_init)
+[1.261s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:166 (find_package)
+[1.261s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)
+[1.261s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[1.261s]   CMakeLists.txt:16 (find_package)
+[1.261s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.261s] [0m
+[1.287s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart
+[1.294s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:197 (find_package):
+[1.294s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.294s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.294s]   set the policy and suppress this warning.
+[1.294s] 
+[1.294s] Call Stack (most recent call first):
+[1.295s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)
+[1.295s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[1.295s]   CMakeLists.txt:16 (find_package)
+[1.295s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.295s] [0m
+[1.323s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time
+[1.350s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4")
+[1.356s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.365s] -- Searching for dependencies of ignition-math6
+[1.367s] -- Looking for OGRE...
+[1.367s] -- OGRE_PREFIX_WATCH changed.
+[1.372s] -- Checking for module 'OGRE'
+[1.384s] --   Found OGRE, version 1.9.0
+[1.415s] -- Found Ogre Ghadamon (1.9.0)
+[1.424s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.424s] [33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:309 (find_package):
+[1.425s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.425s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.425s]   set the policy and suppress this warning.
+[1.425s] 
+[1.425s] Call Stack (most recent call first):
+[1.425s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)
+[1.425s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)
+[1.425s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[1.425s]   CMakeLists.txt:16 (find_package)
+[1.425s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.425s] [0m
+[1.428s] [33mCMake Warning (dev) at /usr/share/OGRE/cmake/modules/FindOGRE.cmake:318 (find_package):
+[1.428s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.428s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.428s]   set the policy and suppress this warning.
+[1.428s] 
+[1.429s] Call Stack (most recent call first):
+[1.429s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:213 (find_package)
+[1.429s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)
+[1.429s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[1.429s]   CMakeLists.txt:16 (find_package)
+[1.429s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.429s] [0m
+[1.432s] -- Looking for OGRE_Paging...
+[1.439s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.439s] -- Looking for OGRE_Terrain...
+[1.446s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.446s] -- Looking for OGRE_Property...
+[1.452s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.452s] -- Looking for OGRE_RTShaderSystem...
+[1.459s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.459s] -- Looking for OGRE_Volume...
+[1.466s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.466s] -- Looking for OGRE_Overlay...
+[1.472s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.605s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.609s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.609s] -- Searching for dependencies of ignition-transport8
+[1.626s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3")
+[1.636s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.641s] -- Checking for module 'libzmq >= 4'
+[1.655s] --   Found libzmq, version 4.3.4
+[1.692s] -- Found ZeroMQ: TRUE (Required is at least version "4")
+[1.698s] -- Checking for module 'uuid'
+[1.711s] --   Found uuid, version 2.37.2
+[1.743s] -- Found UUID: TRUE
+[1.745s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.745s] -- Searching for dependencies of ignition-msgs5
+[1.764s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.769s] -- Checking for module 'tinyxml2'
+[1.781s] --   Found tinyxml2, version 9.0.0
+[1.816s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.819s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.819s] -- Searching for dependencies of ignition-common3
+[1.819s] -- Looking for dlfcn.h - found
+[1.820s] -- Looking for libdl - found
+[1.821s] -- Found DL: TRUE
+[1.834s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0")
+[1.834s] -- Searching for <ignition-common3> component [graphics]
+[1.837s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.837s] -- Searching for dependencies of ignition-common3-graphics
+[1.837s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.841s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.841s] -- Searching for dependencies of ignition-fuel_tools4
+[1.917s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")
+[1.920s] [0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):
+[1.920s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[1.920s]   CMake.
+[1.920s] 
+[1.920s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.920s]   CMake that the project does not need compatibility with older versions.
+[1.920s] Call Stack (most recent call first):
+[1.921s]   /usr/share/cmake/ignition-cmake2/cmake2/FindJSONCPP.cmake:34 (find_package)
+[1.921s]   /usr/lib/x86_64-linux-gnu/cmake/ignition-fuel_tools4/ignition-fuel_tools4-config.cmake:94 (find_package)
+[1.921s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:251 (find_package)
+[1.921s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)
+[1.921s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[1.921s]   CMakeLists.txt:16 (find_package)
+[1.921s] 
+[1.921s] [0m
+[1.925s] -- Checking for module 'jsoncpp'
+[1.940s] --   Found jsoncpp, version 1.9.5
+[1.975s] -- Found JSONCPP: TRUE
+[1.981s] -- Checking for module 'libzip'
+[1.995s] --   Found libzip, version 1.7.3
+[2.028s] -- Found ZIP: TRUE
+[2.028s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.028s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.029s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.033s] -- Gazebo version: 11.10
+[2.033s] -- Checking for module 'tbb'
+[2.048s] --   Found tbb, version 2021.9.0
+[2.083s] -- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[2.144s] [33mCMake Warning (dev) at CMakeLists.txt:18 (find_package):
+[2.144s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.144s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.144s]   set the policy and suppress this warning.
+[2.144s] 
+[2.144s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.144s] [0m
+[2.147s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system
+[2.154s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4")
+[2.216s] -- Configuring done (2.0s)
+[2.221s] [31mCMake Error at CMakeLists.txt:45 (add_library):
+[2.221s]   Cannot find source file:
+[2.221s] 
+[2.221s]     src/animated_box_plugin/animated_box_1.cc
+[2.221s] 
+[2.221s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[2.221s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[2.222s]   .f95 .f03 .hip .ispc
+[2.222s] 
+[2.222s] [0m
+[2.224s] [31mCMake Error at CMakeLists.txt:54 (add_library):
+[2.224s]   Cannot find source file:
+[2.225s] 
+[2.225s]     src/animated_box_plugin/animated_box_2.cc
+[2.225s] 
+[2.225s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[2.225s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[2.225s]   .f95 .f03 .hip .ispc
+[2.225s] 
+[2.225s] [0m
+[2.225s] [31mCMake Error at CMakeLists.txt:63 (add_library):
+[2.226s]   Cannot find source file:
+[2.226s] 
+[2.226s]     src/animated_box_plugin/animated_box_3.cc
+[2.226s] 
+[2.226s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[2.226s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[2.226s]   .f95 .f03 .hip .ispc
+[2.226s] 
+[2.226s] [0m
+[2.226s] [31mCMake Error at CMakeLists.txt:72 (add_library):
+[2.226s]   Cannot find source file:
+[2.226s] 
+[2.226s]     src/animated_box_plugin/animated_box_4.cc
+[2.226s] 
+[2.226s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[2.226s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[2.226s]   .f95 .f03 .hip .ispc
+[2.226s] 
+[2.226s] [0m
+[2.226s] [31mCMake Error at CMakeLists.txt:83 (add_executable):
+[2.226s]   Cannot find source file:
+[2.226s] 
+[2.226s]     src/animated_box_plugin/integrated_main.cc
+[2.226s] 
+[2.226s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[2.227s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[2.227s]   .f95 .f03 .hip .ispc
+[2.227s] 
+[2.227s] [0m
+[2.228s] [31mCMake Error at CMakeLists.txt:45 (add_library):
+[2.229s]   No SOURCES given to target: animated_box_1
+[2.229s] 
+[2.229s] [0m
+[2.229s] [31mCMake Error at CMakeLists.txt:54 (add_library):
+[2.229s]   No SOURCES given to target: animated_box_2
+[2.229s] 
+[2.229s] [0m
+[2.229s] [31mCMake Error at CMakeLists.txt:63 (add_library):
+[2.229s]   No SOURCES given to target: animated_box_3
+[2.229s] 
+[2.229s] [0m
+[2.229s] [31mCMake Error at CMakeLists.txt:72 (add_library):
+[2.229s]   No SOURCES given to target: animated_box_4
+[2.229s] 
+[2.229s] [0m
+[2.229s] [31mCMake Error at CMakeLists.txt:83 (add_executable):
+[2.229s]   No SOURCES given to target: integrated_main
+[2.229s] 
+[2.229s] [0m
+[2.230s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.237s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[2.239s] Invoked command in '/home/addinedu/Desktop/my_mobile/build/my_robot_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake --build /home/addinedu/Desktop/my_mobile/build/my_robot_description -- -j16 -l16

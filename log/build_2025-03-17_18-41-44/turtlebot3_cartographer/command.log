@@ -1,0 +1,1 @@
+Invoking command in '/home/addinedu/Desktop/my_mobile/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake /home/addinedu/Desktop/my_mobile/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/addinedu/Desktop/my_mobile/install/turtlebot3_cartographer

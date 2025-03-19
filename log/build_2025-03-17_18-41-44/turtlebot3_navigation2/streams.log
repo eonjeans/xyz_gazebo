@@ -1,0 +1,26 @@
+[0.256s] Invoking command in '/home/addinedu/Desktop/my_mobile/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinedu/Desktop/my_mobile/install/goal:/opt/ros/humble /usr/local/bin/cmake /home/addinedu/Desktop/my_mobile/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/addinedu/Desktop/my_mobile/install/turtlebot3_navigation2
+[0.739s] -- The C compiler identification is GNU 11.4.0
+[0.739s] -- The CXX compiler identification is GNU 11.4.0
+[0.739s] -- Detecting C compiler ABI info
+[0.739s] -- Detecting C compiler ABI info - done
+[0.739s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.739s] -- Detecting C compile features
+[0.739s] -- Detecting C compile features - done
+[0.739s] -- Detecting CXX compiler ABI info
+[0.739s] -- Detecting CXX compiler ABI info - done
+[0.739s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.739s] -- Detecting CXX compile features
+[0.739s] -- Detecting CXX compile features - done
+[0.740s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.740s] -- Found Python3: /usr/bin/python3 (found version "3.10.16") found components: Interpreter
+[0.740s] [0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+[0.740s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.740s]   CMake.
+[0.740s] 
+[0.740s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.740s]   CMake that the project does not need compatibility with older versions.
+[0.740s] 
+[0.740s] [0m
+[0.761s] -- Configuring done (0.5s)
+[0.765s] -- Generating done (0.0s)
+[0.766s] -- Build files have been written to: /home/addinedu/Desktop/my_mobile/build/turtlebot3_navigation2
